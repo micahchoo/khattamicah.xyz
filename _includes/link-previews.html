@@ -1,4 +1,11 @@
 <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<!-- This is some JavaScript code that appears to implement a hover-over tooltip feature for internal links on a webpage. When the mouse cursor hovers over an internal link (a link that points to a page on the same website as the current page), a tooltip with a preview of the linked page is displayed.
+
+The code uses an iframe element to load the linked page in the background and extract the h1 element and the content element from the page to display in the tooltip. The link-preview-iframe iframe is hidden and its src attribute is set to the href attribute of the hovered link. When the iframe finishes loading, the h1 element and the content element are extracted from the iframe and added to the tooltip-content element. The tooltip-wrapper element, which contains the tooltip-content element, is then displayed.
+
+The tooltip-wrapper element's position and appearance are controlled through a combination of inline styles and JavaScript. When the mouse cursor moves away from the link, the tooltip-wrapper element's opacity is gradually reduced to zero over a period of 100 milliseconds, and then the tooltip-wrapper element is hidden and the tooltip-content element is emptied. This creates a smooth fade-out transition for the tooltip.
+
+The linkHistories object is used to store the content of previously loaded pages so that the linked pages do not need to be loaded again if the user hovers over the same link multiple times.-->
 <style>
   content a.internal-link {
     border-color: #b5eeff;
@@ -12,7 +19,7 @@
     border-radius: 4px;
     overflow: hidden;
     position: absolute;
-    width: 400px;
+    width: 600px;
     height: 250px;
     font-size: 0.8em;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
@@ -44,7 +51,7 @@
 <script>
   var opacityTimeout;
   var contentTimeout;
-  var transitionDurationMs = 100;
+  var transitionDurationMs = 300;
 
   var iframe = document.getElementById('link-preview-iframe')
   var tooltipWrapper = document.getElementById('tooltip-wrapper')

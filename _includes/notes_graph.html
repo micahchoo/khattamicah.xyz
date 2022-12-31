@@ -1,4 +1,23 @@
+<!-- This script is used to create a graph visualization using the D3 library. It loads the D3 library asynchronously using a script element and calls the loadGraph function when the page finishes loading or the user scrolls.
+
+The loadGraph function checks if the graph-wrapper element is within the viewport and if the commentFlag variable is true, and only continues if both conditions are met. It then creates a new script element and sets its src attribute to the URL of the D3 library, sets its crossOrigin and integrity attributes, and appends it to the document body. When the D3 library finishes loading, it calls an anonymous function that defines various constants and variables, including MINIMAL_NODE_SIZE, MAX_NODE_SIZE, ACTIVE_RADIUS_FACTOR, STROKE, FONT_SIZE, TICKS, FONT_BASELINE, and MAX_LABEL_LENGTH. It also sets nodesData and linksData to the nodes and edges properties of the graphData object, respectively.
+
+The anonymous function also defines the updateNodeSize function, which calculates the size of each node based on the number of links it has, and stores it in the nodeSize object using the node's id as the key. It also defines the onClick, onMouseover, and onMouseout functions, which handle click, mouseover, and mouseout events on the graph elements, respectively. The sameNodes and sameEdges functions are used to compare the previous and next data sets to determine if the graph needs to be updated.
+
+Finally, the anonymous function sets up the graph visualization using the D3 library, including the simulation, links, nodes, texts, and labels. It also sets up event listeners for the various elements and starts the simulation. -->
+
+
+
+
 <style>
+<!-- This is a stylesheet written in CSS (Cascading Style Sheets) for a webpage or application. It defines the styles for various elements on the page, such as links, nodes (circle elements), and text.
+
+The styles defined in this stylesheet include the color, cursor, fill color, transition, and opacity of various elements. For example, the links line style defines the stroke color, opacity, and cursor for the line element within a links class. The nodes circle style defines the cursor, fill color, and transition for the circle element within a nodes class.
+
+The inactive class defines the opacity and transition for elements that are inactive. The #graph-wrapper style defines the background, border radius, and height for an element with the ID graph-wrapper.
+
+This stylesheet is used to control the visual appearance of the elements on the page and make them more user-friendly and visually appealing. -->
+
   .links line {
     stroke: #ccc;
     opacity: 0.5;
@@ -68,7 +87,7 @@
         let linksData = graphData.edges;
 
         const nodeSize = {};
-
+<!--This function calculates the size of each node in the graph based on the number of links it has. It first calculates the weight of the node by multiplying 3 by the square root of the number of links the node has. If the weight is less than the minimal node size, it is set to the minimal node size. If the weight is greater than the maximum node size, it is set to the maximum node size. Finally, the node size is stored in the nodeSize object using the node's id as the key.-->
         const updateNodeSize = () => {
           nodesData.forEach((el) => {
             let weight =
@@ -85,7 +104,8 @@
             nodeSize[el.id] = weight;
           });
         };
-
+		
+<!-- The given code is a script written in JavaScript that is used to load and create a graph using the D3 library. The graph is displayed within a div element with the id "graph-wrapper". The script listens for the "load" and "scroll" events and calls the loadGraph function when these events are triggered. The loadGraph function first checks if the top of the "graph-wrapper" element is within 1.5 times the height of the window and if the commentFlag variable is true. If either of these conditions are not met, the function returns without executing further. If both conditions are met, the function creates a new script element, sets its src attribute to the URL of the D3 library, and sets its crossOrigin and integrity attributes. The script element is then appended to the body of the document and the onload event is set to an anonymous function that creates the graph. The anonymous function first declares several constants and variables, including nodesData, linksData, and nodeSize. It then calls the updateNodeSize function, which calculates the size of each node based on the number of links it has. The rest of the anonymous function sets up the layout, scales, and elements of the graph using the D3 library. -->
         const onClick = (d) => {
           window.location = d.path
         };
@@ -126,7 +146,7 @@
             return "";
           });
         };
-
+<!-- This code is setting up event listeners for the graph visualization, including onClick, onMouseover, and onMouseout. The onClick event will redirect the user to a specific URL when they click on a node in the graph. The onMouseover event will highlight the node and its related nodes, increasing the stroke width of the related links and setting the inactive class for nodes and text that are not related. The onMouseout event will remove these changes, setting the stroke width of all links back to the default value and removing the inactive class from nodes and text.
         const onMouseout = function (d) {
           node.attr("class", "");
           link.attr("class", "");
@@ -153,7 +173,7 @@
 
           return true;
         };
-
+<!-- It includes functions for styling the graph, handling events such as clicking and hovering over nodes, and determining whether the data for the graph has changed. It also includes constants for various styling and layout options such as node sizes, stroke width, and font size. The script appears to be designed to be dynamically loaded and to update the graph whenever the data changes.-->
         const sameEdges = (previous, next) => {
           if (next.length !== previous.length) {
             return false;
@@ -172,7 +192,7 @@
 
           return true;
         };
-
+<!--The script sets up various variables and functions, including ones for updating the size of nodes based on the number of links they have, handling mouseover and mouseout events for nodes, and checking if the nodes and edges in the previous and current graph data are the same. The script also includes some styling for the visual elements of the graph, such as the links, nodes, and labels. -->
         const graphWrapper = document.getElementById('graph-wrapper')
         const element = document.createElementNS("http://www.w3.org/2000/svg", "svg");
         element.setAttribute("width", graphWrapper.getBoundingClientRect().width);
@@ -190,7 +210,7 @@
         const width = Number(svg.attr("width"));
         const height = Number(svg.attr("height"));
         let zoomLevel = 1;
-
+<!-- This code uses the D3 library to create a force simulation for the nodes and links in the graph. The simulation has several forces applied to it, including a central force to keep the nodes centered in the graph, a collision force to prevent nodes from overlapping, and a charge force to repel nodes from each other. The simulation also has a force for the x and y positions of the nodes, as well as a force for the links between the nodes. The link force specifies the ID of each node and the distance between them. The simulation is then stopped, allowing it to be started later when needed.-->
         const simulation = d3
           .forceSimulation(nodesData)
           .force("forceX", d3.forceX().x(width / 2))
@@ -206,7 +226,7 @@
           .force("center", d3.forceCenter(width / 2, height / 2))
           .force("collision", d3.forceCollide().radius(80))
           .stop();
-
+<!-- This code is setting up a force-directed graph visualization using the D3.js library. It starts by defining several constants, such as the minimal and maximum node sizes, the active radius factor, stroke width, font size, and font baseline. It then retrieves the data for the nodes and links from the graphData object, which is included from a JSON file. Next, it defines a function called updateNodeSize, which calculates the size of each node based on the number of links it has. It then sets up a simulation using d3.forceSimulation, with several forces such as charge, link, center, and collision to define the behavior of the nodes and links in the graph. It also defines a stop function to stop the simulation when needed. The code then appends a g element to the SVG element and sets up three groups for the links, nodes, and text. It defines a resize function that adjusts the size and position of the elements based on the zoom level and the active state of the nodes. The code then sets up a zoom behavior on the SVG element and adds event listeners for the "load" and "scroll" events to load the graph when the page loads or when the user scrolls. -->
         const g = svg.append("g");
         let link = g.append("g").attr("class", "links").selectAll(".link");
         let node = g.append("g").attr("class", "nodes").selectAll(".node");
@@ -287,7 +307,7 @@
           simulation.force("link").links(linksData);
           simulation.alpha(1).restart();
           simulation.stop();
-
+<!-- This is the restart function, which updates the data displayed in the graph visualization. It first updates the size of the nodes in the graph using the updateNodeSize function. It then binds the data for the nodes, links, and text elements to the corresponding D3 selection, and removes any elements that are no longer needed. It sets up the event listeners for these elements, such as the click and mouseover events. It also sets the active attribute for the nodes and text elements if they correspond to the current path. Finally, it restarts the simulation with the updated data and stops it.-->
           for (let i = 0; i < TICKS; i++) {
             simulation.tick();
           }
@@ -296,7 +316,7 @@
         };
 
         const zoomHandler = d3.zoom().scaleExtent([0.2, 3]).on("zoom", resize);
-
+		
         zoomHandler(svg);
         restart();
 
@@ -311,5 +331,7 @@
         commentFlag = false;
       }
     }
+	
+<!--This code defines a JavaScript function that loads a graph visualization on a webpage using the D3 (Data-Driven Documents) library. The graph consists of nodes (circle elements) and links (line elements) and is generated using data stored in a JSON file that is included in the script.The function loads the D3 library asynchronously and waits for it to finish loading before setting up the visualization. It defines constants such as the minimal and maximum sizes of nodes, the stroke width of links, and the font size of text labels. It also defines a number of functions that are used to interact with the visualization, such as onClick, onMouseover, and onMouseout. The function then sets up a force-directed graph layout using D3's forceSimulation function and adds a number of forces to it, such as a center force to keep the graph centered on the page, a collision force to prevent nodes from overlapping, and a link force to create links between nodes based on the data in the JSON file. The function also sets up an SVG (Scalable Vector Graphics) element to hold the graph visualization and adds groups for nodes, links, and text labels to it. It then defines a number of functions for updating the graph when the data or layout changes, such as restart, which updates the node, link, and text data and restarts the simulation, and resize, which handles zooming and panning of the graph.Finally, the function sets up event listeners to trigger the graph to be loaded when the page is scrolled or when it finishes loading, and it disables the event listeners once the graph has been loaded.	-->
   </script>
 </div>

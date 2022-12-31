@@ -5,25 +5,25 @@ id: home
 permalink: /
 ---
 
-## Это цифровой сад Vademecum
+## This is a digital garden Vademecum
 
 <p style="padding: 2em 1em; background: #f5f7ff; border-radius: 4px;">
-  <span style="font-weight: bold">Вадемекум</span> — (от латинского vade mecum — «иди со мной») согласно Википедии, небольшой карманный справочник, который брали с собой в дорогу в средние века, чтобы немного скрасить долгий и сложный путь. Содержал вадемекум, обычно, сборник легких незатейливых мыслей, повестей, историй   
+   <span style="font-weight: bold">Vademecum</span> — (from the Latin vade mecum — «go with me») according to Wikipedia, a small pocket reference book that was taken with oneself on the road in the Middle Ages, to beautify a little A long and difficult road. Содержав вадемекум, бесплатно, сборник легких незатейливых мыслей, повестей, историй
 </p>
 
 
-Примерно тем же и является данный блог. Сборник коротких зарисовок, мыслей и идей, кусочков опыта, интересных фактов и наблюдений, не несущий сакральных смыслов, а лишь помогающий немного скрасить наше общее путешествие, а, возможно, и натолкнуть на свои размышления. Блог представлен в форме [[Цифровой сад|цифрового сада]]
+This blog is exactly like that. Сборник коротких зарисовок, мыслей и идей, pieces of experience, interesting facts and observations, which does not carry sacred meanings, and only helps to brighten up our general journey a little, and, perhaps, to stumble upon your thoughts. Blog presented in form [[Цифровой сад|цифрового сада]]
 
-Темы, затрагиваемые здесь автором, отражают круг его интересов. Это методы рационального и критического мышления, повышение собственной эффективности, методы эффективного обучения, немного бизнеса и экономики, немного философии и бытовых размышлений.
+The topics covered here by the author reflect his range of interests. Это методы рационного и критического мышления, просмотреть производительного мышленый, методы эффективного обучный, немного бизнес и економика, немного философии и бытовых размышлений.
 
-Отдельной обобщающей темой этого сада можно выделить исследование системных и универсальных аспектов [[Технологии изменений|методов и технологий изменений]]. Изменений, как отдельного вида проактивной человеческой деятельности
+A separate general theme of this garden is the study of systemic and universal aspects [[My Linktree]]. Changes as a separate type of proactive human activity
 
-P.S. В соответствии с концепцией [[Цифровой сад|цифрового сада]] в этом блоге не предусмотрены содержания, разделы и категории. Однако, для тех кто впервые сталкивается с такой формой организации блога, все же есть некоторая [[Карта сада|карта сайта]], дабы не запутать читателя. Также для навигации можно использовать и графический граф связей
+P.S. In accordance with the concept [[Цифровой сад|цифрового сада]], this blog does not have content, sections or categories. However, for those who encounter this blog organization for the first time, there is still some [[Карта сада|карта сайта]], so as not to confuse the reader. Also, for navigation, you can use a graphic graph of connections
 
-Но в полной мере цифровой сад Vademecum раскроется, когды вы просто погрузитесь в цепочки тем, смыслов и ссылок. Для таких осмелившихся, предлагаю начать именно отсюда:  
-[[Темы и смыслы этого сада|>>узнай насколько глубока кроличья нора<<]]
+Но полной мере дигифривой сад Vademecum раскроется, когды вы просмотры погоритесь цепочи тем, мысыл и сылок. For such daredevils, I suggest starting from here:
+[[Темы и смыслы этого сада|>>узнай что глубока кроличья нора<<]]
 <style>
-  .wrapper {
-    max-width: 45em;
-  }
+   .wrapper {
+     max-width: 45em;
+   }
 </style>
