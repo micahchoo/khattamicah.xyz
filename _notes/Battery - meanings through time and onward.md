@@ -28,7 +28,7 @@ Crime(?)
 		- ==this seems to be the most apt metaphor for modern day batteries. a process of intensive repititive exploitation and depletion. at scale. ==
 
 ## Related?
-<iframe src="https://www.merriam-webster.com/dictionary/batter#:~:text=intransitive%20verb,electric-light%20bulbs—%20D.%20B.%20Chidsey" class="resize-vertical" width="800" height="400"></iframe>
+[Batter Definition & Meaning - Merriam-Webster](https://www.merriam-webster.com/dictionary/batter#:~:text=intransitive%20verb,electric-light%20bulbs%E2%80%94%20D.%20B.%20Chidsey)
 
 with this definition a more full definition arises - **a repititive group of somethings/someactions designed to do someactions or someeffect - usually related to striking or building capacity to strike**
 

@@ -65,7 +65,7 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       current_note.content = current_note.content.gsub(
         /\[\[([^\]]+)\]\]/i, # match on the remaining double-bracket links
         <<~HTML.delete("\n") # replace with this HTML (\\1 is what was inside the brackets)
-          <span title='Эта заметка еще не создана' class='invalid-link'>
+          <span title='Nope. Not yet' class='invalid-link'>
             <span class='invalid-link-brackets'>[[</span>
             \\1
             <span class='invalid-link-brackets'>]]</span></span>

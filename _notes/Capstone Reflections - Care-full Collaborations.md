@@ -18,11 +18,11 @@ The theories of care are many and diverse, I have started to look beyond the rep
 
 ## Clusters of care
    ### Oiling the Wheels - Archetypes
-        -   The maintainers do the work of keeping things alive. Annemarie talks about this as lot more than just routine(mundane work). It is the understanding that in the \[\[logic of care\]\], things shift and conversations must keep happening. The maintainers keep an attitude of tenacity and adaptibility(AM) and learn to keep trying because the action is the moral activity of care.
-        -   The maintainers that I have observed range from Shreyas to Vinay to Dilip to Supriya, from the understanding that the work must continue. As soon as the lockdown was announced, Shreyas got together with Geeta and Supriya in trying to build a website for DLL. It was a process of learning together on various platforms and trying things out.
-        -   Design Beku. in a conversation about how the a big designer's collective was running the design equivalent of a hackathon. Naveen said how the long work has to find a home in db after the hackathon. The initial momentum of many of these projects had failed.
-        -   This doesn't mean that the maintainers are strangers to failure. For a common lunch that was supposed to bring together various voices of Bidar to discuss the matter of responding to CAA-NRC, someone slipped through the invitations. I was told that it hurt because a woman writer had not been invited. Dilip told me later how it was a failure of planning and how it meant that she would drift apart a little. But he was confident in how they would win her trust back.
-        -   Maintainers must also understand the role of people-their bodies, their practices and their places to hold networks together. Liyaqat sir, is a renowned collector of historical artifacts. Shreyas tells me that this also however his lament. When they met him for the first time, he lamented the fact that his children wouldn't keep up his practice and that this practice of held so little value in the eyes of the public. Whereas he had such amazing items ranging from \[\[dunno\]\]. He told me about how these artifacts and their stories made L a keeper of public memory rather than just a collector of antiquities. They therefore used some of the funds to send him timely appreciation packages for his work.
+-   The maintainers do the work of keeping things alive. Annemarie talks about this as lot more than just routine(mundane work). It is the understanding that in the logic of care, things shift and conversations must keep happening. The maintainers keep an attitude of tenacity and adaptibility(AM) and learn to keep trying because the action is the moral activity of care.
+-   The maintainers that I have observed range from Shreyas to Vinay to Dilip to Supriya, from the understanding that the work must continue. As soon as the lockdown was announced, Shreyas got together with Geeta and Supriya in trying to build a website for DLL. It was a process of learning together on various platforms and trying things out.
+-   Design Beku. in a conversation about how the a big designer's collective was running the design equivalent of a hackathon. Naveen said how the long work has to find a home in db after the hackathon. The initial momentum of many of these projects had failed.
+-   This doesn't mean that the maintainers are strangers to failure. For a common lunch that was supposed to bring together various voices of Bidar to discuss the matter of responding to CAA-NRC, someone slipped through the invitations. I was told that it hurt because a woman writer had not been invited. Dilip told me later how it was a failure of planning and how it meant that she would drift apart a little. But he was confident in how they would win her trust back.
+-   Maintainers must also understand the role of people-their bodies, their practices and their places to hold networks together. Liyaqat sir, is a renowned collector of historical artifacts. Shreyas tells me that this also however his lament. When they met him for the first time, he lamented the fact that his children wouldn't keep up his practice and that this practice of held so little value in the eyes of the public. Whereas he had such amazing items ranging from dunno. He told me about how these artifacts and their stories made L a keeper of public memory rather than just a collector of antiquities. They therefore used some of the funds to send him timely appreciation packages for his work.
    ### Making as a practice
         -   The slow and Polished
         -   The quick and dirty
@@ -51,4 +51,25 @@ The writing process started off with a simple outline which I then followed with
 After talking to shreyas, I decided to strucure it the way that I would, without academic boundaries. Is there a translation possible between the two?
 Even then my outline is now based the questions, and that allows for a little bit of Non-Linear Storytelling
 
-[[Narratives- Map of Concepts]]
+
+# Readings
+
+    -   Citation:
+        -   intext: (Hauskeller, 2020)
+        -   bibliography: Hauskeller, C. (2020). Care Ethics and Care Contexts: Contributions from Feminist Philosophy. _East Asian Science, Technology And Society_, _14_(1), 153-161. [https://doi.org/10.1215/18752160-8234663](https://doi.org/10.1215/18752160-8234663)
+    -   Author: Christine Hauskeller
+  ## Who is the (primary) patient
+    -   Korea, we see that the patient is often not unambiguously one person. Both articles show how the pregnant woman, the fetus, and the family form a complex entity for care in the context of diagnoses of genetic
+    -   family members are often directly involved in supplying means for, and negotiating the care of, the patient with clinical staff
+##   What are we looking at
+    -   Jenna Grant’s article on medical imaging technologies in the politicized contexts of Cambodia reports doctors expressing ambivalence about the spread of imaging technologies because they see it as leading to reduced skills in other diagnostic and care experience.
+##   centralisation of professional caregiver despite
+    -   work-life balance and institutional shackles of the caregiver
+    -   the family being part of the caregiving context
+-   Sherwin talks about
+    -   on how care practices and the conditions that structure them reflect and reaffirm local and even global power hierarchies.
+##   To read:
+    -   Gilligan In a Different Voice: Psychological Theory andWomen’sDevelopment
+        -   _ethics of mature_ care, which is grounded in knowledge of, and respect for, others—as well as for oneself.
+        -   What is the idea of mature care
+        -   mature care ethics, relations are interconnected, parts of webs in which individuality is enacted

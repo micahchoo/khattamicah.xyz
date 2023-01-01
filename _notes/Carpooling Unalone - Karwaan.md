@@ -5,7 +5,7 @@ toc: false
 season: spring
 ---
 
-We explore how communities are formed, why carpooling hasn’t seen commercial success in India yet? In doing so, we design a community-based carpooling solution that uses events to bring these communities together.
+We explore how communities are formed, why carpooling hasn’t seen commercial success in India yet? In doing so, we design a community-based carpooling solution that uses events to bring these communities [[notes/together]].
 
 >Why hasn’t carpooling gained popularity in India?
 

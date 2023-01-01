@@ -41,4 +41,4 @@ the snippet I give when they ask for a short bio
 - [[Designer's Ace]]
 - [[Carpooling Unalone - Karwaan]]
 - [[Condom Ads- A Commentary]]
-- [[Trustworthy AI- A Sensory Firewall]]
+- [[Trustworthy AI - A Sensory Firewall]]

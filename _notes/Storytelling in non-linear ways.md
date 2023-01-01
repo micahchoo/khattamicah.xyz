@@ -12,7 +12,7 @@ season: summer
 
 ## Virtual Reality
 
-   - <iframe src="https://www.youtube.com/embed/eX2QBlckPnw" class="resize-both" style="width: 713px; height: 354px;"></iframe>
+  <iframe src="https://www.youtube.com/embed/eX2QBlckPnw" class="resize-both" style="width: 713px; height: 354px;"></iframe>
         - Melding of Realities
             - [[A rape in cyberspace]]
         - Virtual environments
