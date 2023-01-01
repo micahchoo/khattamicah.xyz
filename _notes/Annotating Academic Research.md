@@ -1,6 +1,6 @@
 ---
 title: Annotating Academic Research
-tags: list
+tags: list fuss
 toc: true
 season: spring
 ---

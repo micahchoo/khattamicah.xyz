@@ -16,7 +16,7 @@ the snippet I give when they ask for a short bio
 - [[Speculative Storytelling in Wayanad]]
 - [[Making The Invisible Visible Around An RO Plant]]
 - [[Compost Magazine - Technofutures from Bidar]]
-- [[Commoning the Inbetweens- Compost Pitch]]
+- [[Commoning the Inbetweens - Compost Pitch]]
 - [[The Disenfranchisement of Adivasis in Kerala]]
 
 ### The collectives and people I work with

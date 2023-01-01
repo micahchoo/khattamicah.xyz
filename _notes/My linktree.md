@@ -7,7 +7,7 @@ season: spring
 
 6. **Compost Piece about New technological visions from Bidar while experimenting with coauthoring, illustrating and annotation libraries**
 [here](https://one.compost.digital/fertile-technofutures-from-bidar/)
-also check [[Commoning the Inbetweens- Compost Pitch#Reflections and Thoughts on the piece]] and [[Compost Magazine - Technofutures from Bidar]]
+also check [[Commoning the Inbetweens - Compost Pitch#Reflections and Thoughts on the piece]] and [[Compost Magazine - Technofutures from Bidar]]
 
 5. fact check karo, maabaap ko sikhao
 [here](https://services.tattle.co.in/khoj/search)

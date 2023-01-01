@@ -20,7 +20,7 @@ season: automn
 Factual
 
 * West suffers from Teleology or "a purpose-driven life" and exoticises the Eastern Traditions as an antidote, because the ends don't exist -which is imaginary
-* ![[Pasted image 20210305014932.png]]
+* ![[assets/img/Pasted image 20210305014932.png]]
 * the Tao is spontaneity as well as letting go
 * musings of marriage and love and why calculating is stupid because of innumerable variables
 * brief discussion of the author's position on pragmatism

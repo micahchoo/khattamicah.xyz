@@ -1,10 +1,7 @@
 ---
-title: Commoning the Inbetweens- Compost Pitch
-tags: pitch art
-toc: false
-season: spring
+tags: PENGUINS NOW derrr g
 ---
-# Commoning the Inbetweens: Compost Pitch
+
 
 Commoning Digital Spaces is a good first step. But it has to go much further than that. Our experiences with implementing a [community-owned mesh network in Bidar](https://www.apc.org/en/blog/community-networks-stories-experiences-co-creating-local-knowledge-network) brought up questions that really don't fit into the neo-liberal imaginations of internetworking. In projects like these, spaces have to be made for the people, the place and their histories with each other. 
 ![](https://live.staticflickr.com/65535/51027646522_00ac213005_b.jpg)
