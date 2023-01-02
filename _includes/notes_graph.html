@@ -19,7 +19,7 @@ The inactive class defines the opacity and transition for elements that are inac
 This stylesheet is used to control the visual appearance of the elements on the page and make them more user-friendly and visually appealing. -->
 
   .links line {
-    stroke: #ccc;
+    stroke: #000000;
     opacity: 0.5;
   }
 
@@ -31,8 +31,7 @@ This stylesheet is used to control the visual appearance of the elements on the 
 
   .text text {
     cursor: pointer;
-    fill: #525655;
-    text-shadow: -1px -1px 0 #fafafabb, 1px -1px 0 #fafafabb, -1px 1px 0 #fafafabb, 1px 1px 0 #fafafabb;
+    fill: #000000;
   }
 
   .nodes [active],
@@ -43,16 +42,20 @@ This stylesheet is used to control the visual appearance of the elements on the 
 
   .inactive {
     opacity: 0.1;
-    transition: all 0.15s ease-out;
+    transition: all 0.15s ease-in;
   }
 
   #graph-wrapper {
-    background: #fcfcfc;
+    background: linear-gradient(#fff1e6, #f6f6f7);
     border-radius: 4px;
     height: auto;
   }
+
 </style>
 
+<div><html><h3 style="padding: 0.3em 0.3em; align: center;"> This is how each page on my website is connected to the others</h3>
+</html>  
+</div>
 <div id="graph-wrapper">
   <script>
     var commentFlag = true;
@@ -216,16 +219,14 @@ This stylesheet is used to control the visual appearance of the elements on the 
           .force("forceX", d3.forceX().x(width / 2))
           .force("forceY", d3.forceY().y(height / 2))
           .force("charge", d3.forceManyBody())
-          .force(
-            "link",
-            d3
+          .force("link", d3
               .forceLink(linksData)
               .id((d) => d.id)
               .distance(70)
           )
-          .force("center", d3.forceCenter(width / 2, height / 2))
+          .force("center", d3.forceCenter(width / 3, height / 3))
           .force("collision", d3.forceCollide().radius(80))
-          .stop();
+          <!--.stop();-->
 <!-- This code is setting up a force-directed graph visualization using the D3.js library. It starts by defining several constants, such as the minimal and maximum node sizes, the active radius factor, stroke width, font size, and font baseline. It then retrieves the data for the nodes and links from the graphData object, which is included from a JSON file. Next, it defines a function called updateNodeSize, which calculates the size of each node based on the number of links it has. It then sets up a simulation using d3.forceSimulation, with several forces such as charge, link, center, and collision to define the behavior of the nodes and links in the graph. It also defines a stop function to stop the simulation when needed. The code then appends a g element to the SVG element and sets up three groups for the links, nodes, and text. It defines a resize function that adjusts the size and position of the elements based on the zoom level and the active state of the nodes. The code then sets up a zoom behavior on the SVG element and adds event listeners for the "load" and "scroll" events to load the graph when the page loads or when the user scrolls. -->
         const g = svg.append("g");
         let link = g.append("g").attr("class", "links").selectAll(".link");

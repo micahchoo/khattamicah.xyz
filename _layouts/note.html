@@ -1,14 +1,20 @@
 ---
+
 layout: default
+
 ---
 
 <article>
-  <div>
-    <h1>{{ page.title }}</h1>
-    <h6 id="tag">tags: {{ page.tags | capitalize | join: ', '  }}</h6>
-	
-	</h6>
+<div align="center" style="background-color: hsla(333, 87%, 64%, 0.4); padding: 0 0 2.5% 0; color:#fff1e6">
+<a class="internal-link" href="https://micahchoo.github.io/feed.atom" style="color:#fff1e6">RSS</a>   |
+<a class="internal-link" href="https://twitter.com/MicahAlex_" style="color:#fff1e6">Twitter</a>   |
+<a class="internal-link" href="/about" style="color:#fff1e6">About</a>
 
+</div>
+  <div>
+    <h2 style="padding:10% 0 1% 0;" >{{ page.title }}</h2>
+	<div style="padding:1% 1% 1% 50%;" class = "tags">{% assign tags = page.tags | map: 'tags' | join: ' '  | split: ' ' | uniq | sort %}{%- for tag in page.tags -%}<a class="tag" href="{{ site.url }}/tags/#{{tag}}"> {{tag}} </a>{%- endfor -%}</div>
+	<button style="padding:4px;"><span><a class="internal-link" href="#graph">graph here</a></span></button>
   </div>
 
   <div id="notes-entry-container">
@@ -38,9 +44,9 @@ layout: default
   </div>    </content>
 
 </article>
-
 <hr>
 
 
 
 {% include notes_graph.html %}
+<a id="graph"></a>

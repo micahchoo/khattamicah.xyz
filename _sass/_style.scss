@@ -1,15 +1,15 @@
 $color-primary: hsl(190, 10%, 20%);
 $color-secondary: hsl(190, 100%, 40%);
-$color-text: hsl(165, 5%, 30%);
+$color-text: hsl(165, 5%, 40%);
 $color-subtext: hsl(0, 0%, 30%);
-$color-border: hsl(0, 0%, 85%);
-$color-box-background: mix($color-secondary, white, 4%);
-
+$color-border: #f3539b;
+$color-box-background: hsla(166, 55%, 71%, 0.2);
 $border-radius: 4px;
 $font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
   sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 
 body {
+  background: linear-gradient(to right, #fff1e6, #f6f6f7);
   box-sizing: content-box;
   font-family: $font-family;
   margin: 0 auto;
@@ -20,7 +20,7 @@ body {
   font-size: 1rem;
   max-width: 65rem;
 
-  @media (min-width: 820px) {
+  @media (min-width: 100%) {
     font-size: 1.1rem;
   }
 }
@@ -42,7 +42,7 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  max-height: 75vh;
+  max-height: 38vh;
   border-radius: $border-radius;
 }
 
@@ -75,15 +75,17 @@ h5 {
   padding-bottom: 0;
   }
 h4 {
-  color: $color-secondary;
+
   margin-bottom: 0;
-  margin-top: 50;
+  margin-top: 0;
+  padding-bottom: 0;
+  color: #f3539b;
 }
 h6 {
-  line-height: 1.3;
+  line-height: 1;
   margin-bottom: 0;
   padding-bottom: 0;
-  color: grey;
+  color: hsla(333, 87%, 64%, 1);
 }
 a {
   transition: background 300ms;
@@ -93,7 +95,7 @@ a {
   color: $color-secondary;
   &:hover {
     color: black !important;
-    background: #ffec04;
+    background: #b5eeff;
   }
   &:after {
     position: relative;
@@ -108,6 +110,28 @@ a {
     content: "";
   }
 }
+a.transparent{
+  padding: 0.5em;
+  text-decoration: none;
+  content:"";
+  }
+a.transparent:after {
+	position: relative;
+    top: -0.5em;
+    font-size: 0.7em;
+    content: "";
+  }
+a.transparent:hover {
+    color: black !important;
+  }
+
+*:focus {
+  background: #ffe8bc !important;
+  color: black !important;
+}  
+ 
+
+
 
 *:focus {
   background: #ffe8bc !important;
@@ -115,7 +139,8 @@ a {
 }
 
 nav {
-  margin: 1em 0 3em;
+  margin: 1em 0 3em 0;
+  align: center
 }
 
 #notes-entry-container {
@@ -127,7 +152,8 @@ nav {
 
   @media (min-width: 700px) {
     grid-template-columns: 3fr 1fr;
-    grid-template-areas: "content side";
+    grid-template-areas: 
+					"content side";
   }
 }
 
@@ -136,14 +162,15 @@ nav {
   flex-wrap: wrap;
 }
 
+
 .tag {
-  background-color: $color-box-background;
-  border: 1px solid $color-primary;
+  background-color: #f3539b;
+  border: 1px solid #f3539b;
   border-radius: $border-radius;
-  color: $color-primary;
+  color: #f6f6f6;
   display: inline-block;
   font-size: 0.8em;
-  margin: 0.5em 0.5em 0 0;
+  margin: 0.5em;
   padding: 0.3em 0.6em;
   position: relative;
   text-decoration: none;

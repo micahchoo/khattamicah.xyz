@@ -6,4 +6,7 @@ content-type: eg
 ---  
 
 # hello
+this is [[everythings]]
+
+
 
