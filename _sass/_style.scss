@@ -5,23 +5,34 @@ $color-subtext: hsl(0, 0%, 30%);
 $color-border: #f3539b;
 $color-box-background: hsla(166, 55%, 71%, 0.2);
 $border-radius: 4px;
-$font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
-  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-
+/*$font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;*/
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: 'Balthazar';
+  src: url('/assets/Balthazar.woff2') format('woff2');
+}
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: 'Syncopate';
+  src: url('/assets/Syncopate.woff2') format('woff2');
+}
 body {
   background: linear-gradient(to right, #fff1e6, #f6f6f7);
   box-sizing: content-box;
-  font-family: $font-family;
   margin: 0 auto;
   line-height: 1.7;
   padding: 4vh 6vw;
   overflow-x: hidden;
   color: $color-text;
-  font-size: 1rem;
   max-width: 65rem;
 
-  @media (min-width: 100%) {
-    font-size: 1.1rem;
+  @media (min-width: 720px) {
+    font-size: 0.9em;
   }
 }
 
@@ -39,11 +50,13 @@ footer {
 }
 
 img {
-  max-width: 100%;
   display: block;
   margin: 0 auto;
-  max-height: 38vh;
+  max-height: 60vh;
   border-radius: $border-radius;
+  object-fit: cover; /* Make the image cover the container while maintaining its aspect ratio */
+  width: 100%; /* Make the width of the image fill the container */
+  overflow: hidden;
 }
 
 blockquote {
@@ -52,11 +65,14 @@ blockquote {
   font-size: 0.9em;
   background: $color-box-background;
   border-radius: $border-radius;
-
-  p {
-    margin: 0;
-  }
 }
+
+p {
+    margin: 0;
+	font-family: 'Balthazar', sans-serif;
+	font-size:0.8em;
+
+  }
 
 hr {
   width: 100%;
@@ -65,30 +81,44 @@ hr {
   margin: 1.5em 0;
   background: $color-border;
 }
+html {
+  font-size: 16px; /* Set the base font size */
+}
+h1{
+   font-family: 'Syncopate', serif;
+   margin-block-start: 0.67em; margin-block-end: 0.67em; font-size: 2.00em; font-weight: bold;
+   color: hsla(333, 87%, 64%, 1);
+}
 
-h1,
-h2,
-h3,
-h5 {
-  line-height: 1.3;
-  margin-bottom: 0;
-  padding-bottom: 0;
+h2{
+	margin-block-start: 0.83em; margin-block-end: 0.83em; font-size: 1.50em; font-weight: bold;
+	font-family: 'Syncopate', serif;
+	color: hsla(333, 87%, 64%, 1);
+}
+h3{
+  font-family: 'Syncopate', serif;
+  color: hsla(333, 87%, 64%, 1);
+  margin-block-start: 1.00em; margin-block-end: 1.00em; font-size: 1.17em; font-weight: bold;
   }
 h4 {
-
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  color: #f3539b;
-}
-h6 {
-  line-height: 1;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  font-family: 'Syncopate', serif;
   color: hsla(333, 87%, 64%, 1);
+  margin-block-start: 1.33em; margin-block-end: 1.33em; font-size: 1.00em; font-weight: bold;
+}
+h5 {
+  font-family: 'Syncopate', serif;
+  color: hsla(333, 87%, 64%, 1);
+  margin-block-start: 1.67em; margin-block-end: 1.67em; font-size: 0.83em; font-weight: bold;
+  }
+
+h6 {
+  font-family: 'Syncopate', serif;
+  color: hsla(333, 87%, 64%, 1);
+  margin-block-start: 2.33em; margin-block-end: 2.33em; font-size: 0.67em; font-weight: bold;
 }
 a {
   transition: background 300ms;
+  font-family: 'Balthazar', sans-serif;
   padding: 0 0.1em;
   text-decoration: none;
   border-bottom: 1px solid $color-border;
@@ -101,7 +131,7 @@ a {
     position: relative;
     top: -0.5em;
     font-size: 0.7em;
-    content: "↗";
+    content: " ↗";
     color: #aaaaaa;
   }
   &.internal-link:after,
@@ -110,7 +140,7 @@ a {
     content: "";
   }
 }
-a.transparent{
+a#transparent{
   padding: 0.5em;
   text-decoration: none;
   content:"";
@@ -145,7 +175,7 @@ nav {
 
 #notes-entry-container {
   display: grid;
-  grid-gap: 0.5em;
+  grid-gap: 0.9em;
   grid-template-areas:
     content
     side;
@@ -169,6 +199,7 @@ nav {
   border-radius: $border-radius;
   color: #f6f6f6;
   display: inline-block;
+  font-family: 'Balthazar', sans-serif;
   font-size: 0.8em;
   margin: 0.5em;
   padding: 0.3em 0.6em;
@@ -207,12 +238,14 @@ nav {
 code {
   background: #f5f5f5;
   padding: 0.1em 0.2em;
+  font-family: 'Balthazar', sans-serif;
   border-radius: 4px;
 }
 
 .invalid-link {
   color: #888888;
   cursor: help;
+  font-family: 'Balthazar', sans-serif;
   background: #fafafa;
   padding: 0 0.1em;
 }
@@ -221,3 +254,40 @@ code {
   color: #cfcfcf;
   cursor: help;
 }
+
+#header-area {
+  display: grid;
+  grid-template-columns: auto; /* Only one column for both elements */
+  grid-template-rows: auto 1fr; /* First row for banner, second row for top-stuff */
+}
+
+ #banner {
+  /* Add styles for the banner element */
+}
+
+ #top-stuff {
+	grid-row: 2; /* Place the top-stuff element in the second row */
+	padding-bottom:1em;
+  /* Add styles for the top-stuff element */
+}
+ @media (min-width: 720px) {
+  #header-area {
+    grid-template-columns: auto 1fr; /* First column for banner, second column for top-stuff */
+    grid-template-rows: auto; /* Only one row for both elements */
+  }
+  #top-stuff {
+    grid-row: auto; /* Reset the grid-row property to its default value */
+  }
+}
+/*
+ @media (max-height: 580px) {
+  #header-area {
+    grid-template-columns: auto; /* First column for banner, second column for top-stuff *//*
+    grid-template-rows: auto 1fr; /* Only one row for both elements *//*
+  }
+  #top-stuff {
+    grid-row: auto; /* Reset the grid-row property to its default value *//*
+	padding-bottom:1em;
+  }
+} 
+*/
