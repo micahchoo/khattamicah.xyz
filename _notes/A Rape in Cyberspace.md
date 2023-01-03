@@ -19,3 +19,4 @@ season: winter
 -   Movie script in screens, searching, thick descriptions of interfaces
 -   snippet and present thick descriptions
 -   centres of gravity of the manifestation
+-  
