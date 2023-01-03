@@ -8,9 +8,23 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.title }}{% endif %}">
 
   <meta property="og:site_name" content="{{ site.title }}">
-<script src="https://hypothes.is/embed.js" async></script>
+  
+  
+  <script src="https://hypothes.is/embed.js" async></script>
+  <script defer src="/assets/font-awesome/js/brands.js"></script>
+  <script defer src="/assets/font-awesome/js/solid.js"></script>
+  <script defer src="/assets/font-awesome/js/fontawesome.js"></script>
 
-  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+  <script type="module">
+
+	import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+	const div = d3.selectAll("div");
+
+	</script>
+  
+  
+  <link rel="icon" href="{{site.favicon}}" type="image/png" sizes="16x16"/>
   <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.atom" />
 
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
@@ -22,10 +36,10 @@
   {% endif %}
 
   {% if page.title %}
-  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:title" content="{{ page.title }} from Micah Alex">
   <meta property="og:type" content="article">
   {% else %}
-  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:title" content="{{ site.title }} from Micah Alex">
   <meta property="og:type" content="website">
   {% endif %}
 
@@ -40,7 +54,7 @@
   <meta property="og:image" content="{{ site.url }}{{ page.image }}">
   {% endif %}
   
-  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:title" content="{{ page.title }} from Micah Alex">
   <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
 
   <title>

@@ -3,10 +3,19 @@ $color-secondary: hsl(190, 100%, 40%);
 $color-text: hsl(165, 5%, 40%);
 $color-subtext: hsl(0, 0%, 30%);
 $color-border: #f3539b;
-$color-box-background: hsla(166, 55%, 71%, 0.2);
+$color-box-background: linear-gradient(hsla(166, 55%, 71%, 0.2),hsla(166, 55%, 51%, 0.2));
 $border-radius: 4px;
 /*$font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
   sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;*/
+  .fa-solid, 
+  .fa-brands{
+    border-radius: 0.2em;
+    --fa-li-margin:0 0.35em 0.35em 0;
+	opacity: 0.1;
+	line-height: 1.5;
+  }  
+  
+  
 @font-face {
   font-style: normal;
   font-weight: 400;
@@ -70,7 +79,7 @@ blockquote {
 p {
     margin: 0;
 	font-family: 'Balthazar', sans-serif;
-	font-size:0.8em;
+	font-size:1em;
 
   }
 
@@ -141,17 +150,20 @@ a {
   }
 }
 a#transparent{
-  padding: 0.5em;
+  padding: -0.5em;
   text-decoration: none;
   content:"";
+  display:inline-block;
+  border-bottom: none;
+  color: #61c7c6;
   }
-a.transparent:after {
+a#transparent:after {
 	position: relative;
     top: -0.5em;
     font-size: 0.7em;
     content: "";
   }
-a.transparent:hover {
+a#transparent:hover {
     color: black !important;
   }
 
@@ -175,7 +187,7 @@ nav {
 
 #notes-entry-container {
   display: grid;
-  grid-gap: 0.9em;
+  grid-gap: 1.2em;
   grid-template-areas:
     content
     side;
@@ -194,7 +206,6 @@ nav {
 
 
 .tag {
-  background-color: #f3539b;
   border: 1px solid #f3539b;
   border-radius: $border-radius;
   color: #f6f6f6;
@@ -205,10 +216,11 @@ nav {
   padding: 0.3em 0.6em;
   position: relative;
   text-decoration: none;
+  background: linear-gradient(hsla(333, 87%, 64%, 0.8), hsla(333, 87%, 44%, 0.8));
+
 }
 
 .tag::before {
-  background-color: $color-box-background;
   content: "";
   height: 100%;
   left: 1px;
@@ -218,7 +230,6 @@ nav {
 }
 
 .tag::after {
-  background-color: $color-secondary;
   border-radius: $border-radius;
   content: "";
   height: 100%;
@@ -277,7 +288,9 @@ code {
   }
   #top-stuff {
     grid-row: auto; /* Reset the grid-row property to its default value */
+	
   }
+	
 }
 /*
  @media (max-height: 580px) {

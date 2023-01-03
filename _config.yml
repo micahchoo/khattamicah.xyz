@@ -10,7 +10,9 @@ locale:              "en"
 # If you are using a host that cannot resolve URLs that do
 # not end with .html (such as Neocities), set this to 'true'.
 use_html_extension:  false
-
+profile_pic: /assets/img/profile.png
+favicon: /assets/img/favicon.png
+copyright_name: CC-NC-SA
 # Set to `true` to open non-internal links in new tabs, or
 # set to `false` to open non-internal links in current tab.
 open_external_links_in_new_tab: false
@@ -44,3 +46,5 @@ defaults:
       path: "_notes/**/*.md"
     values:
       layout: "note"
+      
+excerpt: Micah's sandbox: This is my portfolio and my digital garden. I'm trying to think and curate in public with this. I also conduct experiments here. More recently, I have been making the new "open" ai to teach me to code. it helps me fill a lot of the missing gaps.

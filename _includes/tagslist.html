@@ -1,8 +1,0 @@
-<div class = "tags">	
-	{% assign tags = site.notes | map: 'tags' | join: ' '  | split: ' ' | uniq | sort %}
-	  {% for tag in tags %}
-		{%- if note.tags contains tag -%}
-			<a class="tag" href="#{{tag}}" target="_self">{{ tag | replace: "-", "&nbsp;" }}</a>
-		{%- endif -%}	
-	  {% endfor %}
-</div>
