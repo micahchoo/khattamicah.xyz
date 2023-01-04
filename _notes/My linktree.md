@@ -1,9 +1,15 @@
 ---
+layout: note
+source:
+compiler:
+category:
 title: My linktree
 tags: list
 toc: false
 season: spring
 ---
+
+# My linktree
 
 6. **Compost Piece about New technological visions from Bidar while experimenting with coauthoring, illustrating and annotation libraries**
 [here](https://one.compost.digital/fertile-technofutures-from-bidar/)
@@ -12,7 +18,8 @@ also check [[Commoning the Inbetweens - Compost Pitch#Reflections and Thoughts o
 5. fact check karo, maabaap ko sikhao
 [here](https://services.tattle.co.in/khoj/search)
 
-4.  **Nine ways that climate change could snowball into something much worse that 'global warming'** 
+4. **Nine ways that climate change could snowball into something much worse that 'global warming'** 
+
 [here](https://www.carbonbrief.org/explainer-nine-tipping-points-that-could-be-triggered-by-climate-change)
 
  

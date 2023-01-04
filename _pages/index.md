@@ -5,25 +5,20 @@ permalink: /index
 content-type: eg  
 ---  
 
-# hello
-this is [[everythings]]this is all this is allthis is allthis is all
-	this is allthis is allthis is allthis is all
-## test
-this is all this is allthis is allthis is all
-this is allthis is allthis is allthis is all
-### test
-this is all this is allthis is allthis is all
-this is allthis is allthis is allthis is all
-#### test
-this is all this is allthis is allthis is all
-this is allthis is allthis is allthis is all
-##### test
-this is all this is allthis is allthis is all
-this is allthis is allthis is allthis is all
-###### test
-this is all this is allthis is allthis is all
-this is allthis is allthis is allthis is all
-## test
-this is all this is allthis is allthis is all
-this is allthis is allthis is allthis is all
+
+## Hi, there you seem to 
+> #### have found micah.alex on the www
+##### here are the links to 
+
+### [[Random Tutorials I am Collecting]]
+
+### [[Review of my readings]]
+
+### [[My Projects or Things I Made]]
+
+### [[I am hoarding a bunch of things]]
+
+### [[my baby ideas - slowww thinking]]
+
+### [[otherthings about me]]
 

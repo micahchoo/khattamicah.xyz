@@ -1,7 +1,15 @@
 ---
+layout: note
+tags: 
+source:
+compiler:
+category:
 title: All Tags
 permalink: /tags
 ---
+
+# tags
+
 <div style="scroll-margin: 20px;" class = "tags">	
 	<h1>See notes tagged under</h1>
 	<p>

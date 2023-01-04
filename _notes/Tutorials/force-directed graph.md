@@ -1,0 +1,112 @@
+---
+layout: note
+title:
+tags: b5eeff
+source:
+compiler:
+category:
+---
+
+# force-directed graph
+
+[[force-directed-graph annotated example.html]]
+
+- The code starts with a div that is styled to be the background of the graph.
+- The div has a border radius and height set to auto, which means it will automatically adjust its size based on what content is inside of it.
+- The next section contains an SVG path element that creates a circle shape for each node in the data set.
+- This shape is filled with #b5eeff, which makes it red.
+- The transition property sets all properties of this shape over 0.15 seconds so they smoothly change from one value to another over time as you move your mouse around them or click on them.
+- Next comes text elements that are styled similarly to nodes but have no fill color because they're not active yet (they'll be activated later).
+- These text elements also don't have any cursor style because they're inactive at this point in the code and won't need one until they become active again later when someone clicks on them or moves their mouse near them.
+- The code will draw a circle with a gradient fill and the text "active" or "inactive" on it.
+- The code will draw a circle with a gradient fill and the text "active" or "inactive" on it.
+- -    The code starts by creating a script tag.
+- The script tag is the container for the code that will be run when it loads.
+- It then sets up an anonymous cross-origin request to load d3 from cdnjs, which is a library of JavaScript tools used in data visualization and analysis.
+- Next, it creates an integrity hash using sha512 with the key being "sha512-FHsFVKQ/T1KWJDGSbrUhTJyS1ph3eRrxI228ND0EGaEp6v4a/vGwPWd3Dtd/+9cI7ccofZvl/wulICEurHN1pg==".
+- This ensures that no one can tamper with this code once it's loaded into memory.
+- Then, it appends the newly created script tag onto document body so that all elements on document body are now contained within this new script tag.
+- Finally, it attaches a function called onload() to this new script token so that when someone runs this code they'll call onload().
+- The next part of the code creates two variables: graphData and nodeSize; these two variables contain information about how many nodes and edges there are in our graph
+- The code is a function that takes in the load event and loads the d3.js library into the browser.
+- The script then creates an empty div with id "graph-wrapper" and appends it to the body of the document.
+- Next, it creates a new script element which has been given src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js".
+- It also sets crossOrigin='anonymous' and integrity="sha512-FHsFVKQ/T1KWJDGSbrUhTJyS1ph3eRrxI228ND0EGaEp6v4a/vGwPW
+- -    The code is iterating over the nodesData array and for each node, it calculates the weight of that node.
+- The weight is calculated by multiplying 3 times the length of all links in linksData divided by their sum.
+- Then, if the weight is less than MINIMAL_NODE_SIZE, then it sets it to MINIMAL_NODE_SIZE.
+- If not, then it sets it to MAX_NODE_SIZE.
+- Finally, when iterating through all nodes again with a new value for weight, they are stored in nodeSize[el].
+- The code uses an Array comprehension loop which loops through every element in linksData and filters out any link where source or target id matches el's id.
+- Then using Math's sqrt function on this filtered list of links gives us a weighted sum of how many edges there are between two nodes (weighted by number of edges).
+- This weighted sum is multiplied by 3 because we want to get a total count from 1 edge to 2 edges and so forth up until 4 edges which would be 8 total connections between two nodes (3 * 8 = 24).
+- Then finally adding 1 more edge will give us 25 total connections between two nodes (25 / 8 = 3)
+- The code will update the node size of all nodes in the data structure.
+- The code above will iterate through each element in the nodesData array, and for each iteration it will check if the weight is less than MINIMAL_NODE_SIZE or greater than MAX_NODE_SIZE.
+- If so, then it sets weight to be MINIMAL_NODE_SIZE or MAX_NODE_SIZE respectively.
+- The code starts by declaring a variable called onClick.
+- This is the function that will be executed when the user clicks on the node.
+- It takes one parameter, which is an object with two properties: d and path.
+- The first property, d, contains information about what was clicked on in this case it's a link to another page (d.path).
+- The second property, path, contains information about where they are currently at in their browsing history (e.g., "https://www.googleapis.com/").
+- The code then declares a variable called onMouseover and sets its value to be a function that executes when someone hovers over the node with id of d for more than 3 seconds or so (onMouseover(d)).
+- Inside of this function there are three lines of code: relatedNodesSet = new Set(), linksData .filter((n) => n.target.id == d.id || n.source.id == d
+- The code attempts to make the mouse hover over an inactive link and change its color.
+- -    The code is a function that returns true if the nodes are the same.
+- It starts by creating an empty map and then iterating through each node in the previous array, adding it to the map with its id as key and its label as value.
+- Then it iterates through each node in the next array, checking whether or not they're already on the map before adding them to their respective maps.
+- If they aren't found, then they're added to their respective maps with their title as key and "undefined" as value.
+- The code will check if the next node is not equal to the previous node, and if it's not then it'll return false.
+- If it is then it'll return true.
+- This code defines a function named "sameEdges" that compares two lists of edges. 
+- The function first checks if the two lists have the same length, and returns false if they do not. 
+- Then it creates a set object and adds all the edges in the previous list to it. 
+- It then iterates through the edges in the next list and checks if each edge is in the set. 
+- If any edge is not in the set, the function returns false. 
+- If the function has not yet returned false, it returns true.
+- -   Declare a variable `graphWrapper` that gets the DOM element with the id "graph-wrapper"
+- Declare a variable `element` that creates a new svg element
+- Set the width of `element` to the width of `graphWrapper`
+- Set the height of `element` to 80% of the window's inner height
+- Append `element` to `graphWrapper`
+- Declare a function `reportWindowSize` that sets the width and height of `element` to the window's inner width and height
+- Set the `onresize` event for the window to `reportWindowSize`
+- Declare a variable `svg` that selects the svg element in the DOM
+- Declare variables `width` and `height` that get the width and height of `svg`
+- Declare a variable `zoomLevel` that is initialized to 1
+- -   Declares a variable called `simulation` that is assigned a new force simulation
+- The simulation is initialized with the `nodesData` array as the nodes to simulate
+- The simulation has a `forceX` force applied to it, which positions nodes horizontally in the center of the width of the SVG element
+- The simulation has a `forceY` force applied to it, which positions nodes vertically in the center of the height of the SVG element
+- The simulation has a `charge` force applied to it, which repels nodes from each other based on the distance between them
+- The simulation has a `link` force applied to it, which creates links between nodes based on the `linksData` array and sets their distance to 70 pixels
+- The simulation has a `center` force applied to it, which positions the center of the simulation at a point `width / 3` pixels from the left and `height / 3` pixels from the top of the SVG element
+- The simulation has a `collision` force applied to it, which prevents nodes from overlapping by giving them a minimum distance of 80 pixels from each other
+- The simulation is stopped
+- -   The line `const g = svg.append("g");` appends a `g` element to the `svg` element.
+- The lines `let link = g.append("g").attr("class", "links").selectAll(".link");` and `let node = g.append("g").attr("class", "nodes").selectAll(".node");` append `g` elements to `g` with the class `links` and `nodes`, respectively. They then select all elements with class `link` and `node` in the `g` element, respectively.
+- The line `let text = g.append("g").attr("class", "text").selectAll(".text");` appends a `g` element to `g` with the class `text`, and selects all elements with class `text` in the `g` element.
+- The `resize` function sets the transformation attribute of `g` to the scale of the event object if the event object exists. It then sets `zoomLevel` to the `k` attribute of the scale of the event object, and calculates the font size, `y` attribute of `text`, stroke width of `link`, radius of `node`, and active radius of `node`.
+- The `ticked` function sets the `cx` and `cy` attributes of `node` to the `x` and `y` attributes of the data object passed to the function. It also sets the `x` and `y` attributes of `text` and the `x1`, `y1`, `x2`, and `y2` attributes of `link` to the `x` and `y` attributes of the source and target data objects, respectively.
+- -   Initializes the `node` variable by selecting all elements with the class "node" and binding the data `nodesData` to them
+- Removes the exit selection from the data bound to `node`
+- Initializes `node` by entering new data into the selection, appending a circle element to each new datum and binding event listeners to the element
+- Merges the updated selection with the original selection
+- Initializes the `link` variable by selecting all elements with the class "link" and binding the data `linksData` to them
+- Removes the exit selection from the data bound to `link`
+- Initializes `link` by entering new data into the selection, appending a line element to each new datum and setting the stroke width of the element
+- Merges the updated selection with the original selection
+- Initializes the `text` variable by selecting all elements with the class "text" and binding the data `nodesData` to them
+- Removes the exit selection from the data bound to `text`
+- Initializes `text` by entering new data into the selection, appending a text element to each new datum and binding event listeners to the element
+- Merges the updated selection with the original selection
+- Sets the attribute "active" of each element in the `node` selection to true if the element's `path` property is equal to the current path, and removes the attribute if it is not
+- Sets the attribute "active" of each element in the `text` selection to true if the element's `path` property is equal to the current path, and removes the attribute if it is not
+- Binds the data `nodesData` to the simulation's nodes and the data `linksData` to the simulation's force for links
+- Restarts the simulation and stops it immediately
+- -   Declares a function named "restart" that updates the node sizes, adds data to the "node" and "text" variables, adds event listeners to the "node" and "text" variables, and restarts the simulation
+- Loops through a fixed number of "ticks" in the simulation and runs the "ticked" function
+- Declares a function "zoomHandler" that allows zooming and calls it on the "svg" element
+- Calls the "restart" function
+- Declares a function "isCurrentPath" that returns a boolean indicating if the current URL pathname includes the input "notePath"
+- Declares a function "shorten" that shortens a string to a maximum length and adds an ellipsis if needed
