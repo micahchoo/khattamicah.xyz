@@ -1,13 +1,23 @@
 ---
 layout: note
 title:
-tags: AcademicTwitter AcademicChatter scicomm STEM ReimagineDrawingChallenge
+tags: list/tools Digital-Humanities
 source:
 compiler:
 category:
 ---
 
 # Tools List
+
+These have been compiled by many people on the SCS Discord. These are mostly for Workers in the Digital Humanities and are majorly open-source.
+
+also look at 
+[[Annotating Academic Research]]
+[[Remediating code through thought, story and film]]
+
+
+
+<hr>
 
 https://same.energy/search?i=Z9Ne2
 
@@ -17,20 +27,14 @@ https://gath.io/
 
 [[Annotating Academic Research]]
 
-[Loading...](https://fakewordgenerator.org)/
+[Fake Word Generator](https://fakewordgenerator.org)/
 
 [Simplifier](https://simplifier.neocities.org/index.html)
 
 [Melobytes (text to song) (procedurally generated music) [Melobytes.com]](https://melobytes.com/en/app/melobytes)
 
-https://medium.com/@bssankaran/free-and-open-source-software-noise-cancelling-for-working-from-home-edb1b4e9764e 
+[Free and Open Source Software Noise Cancelling for Working from Home | by Sankaran Srinivasan | Medium](https://medium.com/@bssankaran/free-and-open-source-software-noise-cancelling-for-working-from-home-edb1b4e9764e)
 
-```csvtable
-source: Gallery/digital tools SCS.csv
-columns: 
-- Description
-- Link
-```
 
 Description
 
@@ -64,9 +68,8 @@ https://www.appgyver.com/
 
 Let’s make a basic web application using Airtable and Appgyver. No coding skills required.
 
-https://medium.com/productsandbox/build-a-no-code-application-in-60-min-a7733ab10d42
+[Build a no-code app with Appgyver  | Product Sandbox](https://medium.com/productsandbox/build-a-no-code-application-in-60-min-a7733ab10d42)
 
-https://medium.com/productsandbox/build-a-no-code-application-in-60-min-a7733ab10d42
 
 KoBoToolbox is a suite of tools for field data collection for use in challenging environments. Our software is free and open source. Most of our users are people working in humanitarian crises, as well as aid professionals and researchers working in developing countries.
 
@@ -88,7 +91,7 @@ https://projectmirador.org/
 
 Lychee is a free photo-management tool, which runs on your server or web-space. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
 
-https://lychee.electerious.com/
+[Lychee — Self-hosted photo-management done right](https://lychee.electerious.com/)
 
 https://piwigo.org/
 
@@ -110,43 +113,35 @@ https://dowrite.in/
 
 The blue social bookmark and publication sharing system.
 
-https://www.bibsonomy.org/gettingStarted
+[getting started | BibSonomy](https://www.bibsonomy.org/gettingStarted)
 
 https://dowrite.in/
 
 fosshost.org is a recognized and not-for-profit provider of free to use and accessible cloud-hosting services to the free and open source software community.
 
-https://fosshost.org/
+[Fosshost to Sunset Tenant Services](https://fosshost.org/)
 
-https://www.is-a.dev/
+[is-a.dev | Free sub-domains for developers](https://www.is-a.dev/)
 
 The Agora is a crowdsourced distributed knowledge graph: anagora.org.
 
-https://anagora.org/
+[Node index in anagora.org](https://anagora.org/)
 
 Leaflet is a modern, lightweight open-source JavaScript library for mobile-friendly interactive maps.
 
-https://leafletjs.com/
+[Leaflet - a JavaScript library for interactive maps](https://leafletjs.com/)
 
 Obsidian – A knowledge base that works on local Markdown files.
 
-https://obsidian.md/
+[Obsidian](https://obsidian.md/)
 
-meandering. maintaining. maturing. the sourness of study
-
-https://obsidian.md/
 
 GitHub is where over 65 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and feat...
 
-https://khattamicah.online/notes/how-to-use-github-to-collaborate-on-obsidian-privately
+[How to use Github to collaborate on Obsidian privately — the sourness of study](https://khattamicah.xyz/how-to-use-github-to-collaborate-on-obsidian-privately)
 
-Simple collaboration from your desktop
 
-https://github.com/
-
-https://www.kansha.org/
-
-https://www.kansha.org/
+[Kansha - Open Source Collaborative Tool](https://www.kansha.org/)
 
 The Brave browser is a fast, private and secure web browser for PC, Mac and mobile. Download now to enjoy a faster ad-free browsing experience that saves data and battery life by blocking tracking software.
 
@@ -158,67 +153,62 @@ https://thecodingtrain.com/beginners/git-and-github/1-introduction.html
 
 https://hypothes.is/
 
-https://hypothes.is/groups/91Kz4yYa/lln-hyp
 
 Platform enabling Rapid Annotation for Clinical Entity Recognition
-
 https://clinicalml.github.io/prancer/
 
 To address this, my postdoc Bruno Cardoso has designed MAST (Multimodal Software Annotation Tool), which allows you to flexibly define annotation fields for visual regions, and to establish relations between annotations. MAST works for any text/image multimodal documents. /8
 
-https://clinicalml.github.io/prancer/
 
-http://craig.chat/
 
-http://craig.chat/
+
+
+[Craig](http://craig.chat/)
 
 Standard Notes is a private notes app that features unmatched simplicity, end-to-end encryption, powerful extensions, and open-source applications.
 
-https://standardnotes.org/
+[Standard Notes | End-To-End Encrypted Notes App](https://standardnotes.org/)
 
 Use toGeoJSON to convert a KML file to GeoJSON. Showcases our brand new super-quick cell download feature. Output GeoJSON Check out the generated GeoJSON below. Click ⠇ on the left and Download JSON to download it. Map preview
 
-https://observablehq.com/@tmcw/convert-kml-to-geojson
+[Convert KML to GeoJSON / Tom MacWright](https://observablehq.com/@tmcw/convert-kml-to-geojson)
 
 Register a ➤ domain name at Gandi.net. ✅ Get 2 free 3 GB mailboxes, 1 SSL certificate, and 50% off your 1st web hosting. :)
 
-https://www.gandi.net/en-US/domain
+[Buy a domain name: choose from over 750 domain endings - Gandi.net](https://www.gandi.net/en-US/domain)
 
 Take back control of your email with this easy-to-deploy mail server in a box.
 
-https://mailinabox.email/
+[Mail-in-a-Box](https://mailinabox.email/)
 
 Discourse is modern forum software for your community. Use it as a mailing list, discussion forum, long-form chat room, and more!
 
-https://www.discourse.org/
+[Discourse is the place to build civilized communities | Discourse - Civilized Discussion](https://www.discourse.org/)
 
 Easy-to-make, beautiful timelines.
 
-https://timeline.knightlab.com/
+[Timeline](https://timeline.knightlab.com/)
 
 Advancing media through exploration and experimentation.
 
-https://knightlab.northwestern.edu/
+[Knight Lab](https://knightlab.northwestern.edu/)
 
-Download and play Discord Nitro for FREE at the Epic Games Store. Check for platform availability and play today!
-
-https://www.epicgames.com/store/en-US/p/discord--discord-nitro
 
 Utopia is a production-grade online coding and design tool for React that reads and writes code you’ll want to commit.
 
-https://utopia.app/
+[Utopia](https://utopia.app/)
 
-https://mnemosyne-proj.org/
+[Welcome to the Mnemosyne Project | The Mnemosyne Project](https://mnemosyne-proj.org/)
 
-https://desktop.github.com/
+
 
 App that scans your Lego bricks and shows what to build with it.
 
-https://brickit.app/
+[Brickit](https://brickit.app/)
 
 KoBoToolbox is a suite of tools for field data collection for use in challenging environments. Our software is free and open source. Most of our users are people working in humanitarian crises, as well as aid professionals and researchers working in developing countries.
 
-https://www.kobotoolbox.org/
+[KoboToolbox](https://www.kobotoolbox.org/)
 
 KoBoToolbox is a free toolkit for collecting and managing data in challenging environments and is the most widely-used tool in humanitarian emergencies
 
@@ -226,47 +216,39 @@ https://www.kobotoolbox.org/
 
 DeDRM tools for ebooks. Contribute to apprenticeharper/DeDRM_tools development by creating an account on GitHub.
 
-https://lib.livinglabs.network/
 
 Manual transcription editor. No sign-up is required.
 
-https://www.happyscribe.com/free-transcription-software
+[Free Transcription Software | Happy Scribe](https://www.happyscribe.com/free-transcription-software)
 
-Seamless inline audio.
-
-https://www.happyscribe.com/free-transcription-software
-
-https://www.digital-democracy.org/mapeo/
+[Mapeo](https://www.digital-democracy.org/mapeo/)
 
 Terrastories is a geostorytelling application built to enable indigenous and other local communities to locate and map their own oral storytelling traditions about places of significant meaning or value to them.
 
 https://terrastories.io/try-terrastories/
 
-http://www.communitylands.org/
+[Community Lands](http://www.communitylands.org/)
 
-https://www.digital-democracy.org/mapeo/
+[Mapeo](https://www.digital-democracy.org/mapeo/)
 
 Backup & download all Google Data like Google Drive, Chrome bookmarks, Blogger, YouTube, Gmail contacts, Photos, Play Music, Maps, etc.
 
-https://www.thewindowsclub.com/backup-blogger-google-data-google-takeout
+[Download and Backup your Google Data using Google Takeout](https://www.thewindowsclub.com/backup-blogger-google-data-google-takeout)
 
 Welcome to Audacity Audacity® is free, open source, cross-platform audio software for multi-track recording and editing. Audacity is available for Windows®, Mac®, GNU/Linux® and other operating systems. Check our feature list, Wiki and Forum. Download Audacity 2.1.3 Mar 17th, 2017: Audacity
 
-https://www.audacityteam.org/
+[Audacity ® | Free, open source, cross-platform audio software for multi-track recording and editing.](https://www.audacityteam.org/)
 
 A tribe of people supporting each other to establish their creative footing.
 
-https://tinyfactories.space/projects/
-
+[Tiny Factories](https://tinyfactories.space/projects/)
 a space for gndclouds to think
 
-https://gndclouds.cc/
+[gndclouds](https://gndclouds.cc/)
 
 Welcome to the future of file sharing. Powered by Textile, Filecoin, and IPFS.
 
-https://slate.host/
-
-https://slate.host/
+[Slate](https://slate.host/)
 
 A microblogging platform for the Tiny Factories community and indiepreneurs to share their web presence in one place.
 
@@ -274,15 +256,15 @@ https://gndclouds.cc/projects/tiny-garden/
 
 InterviewJS helps journalists tell interactive stories by converting interviews into messaging experiences.
 
-https://www.interviewjs.io/
+[Welcome to InterviewJS](https://www.interviewjs.io/)
 
 Don't miss our live webinar on Wednesday, August 25 at 11 am PDT with experts from Apple and Esri as we show you how to improve the efficiency of your ...
 
-https://www.linkedin.com/posts/esri_arcgis-field-maps-for-ios-driving-efficiency-activity-6834534510911213568-7iO1
+[Esri on LinkedIn: ArcGIS Field Maps for iOS | Driving Efficiency in Field Operations](https://www.linkedin.com/posts/esri_arcgis-field-maps-for-ios-driving-efficiency-activity-6834534510911213568-7iO1)
 
 Open Source Libs is a massive collection of the world's best open source projects. Our mission is to help you discover great open source software to include in your own projects.
 
-https://opensourcelibs.com/
+[Open Source Libs - Best Open Source Software Projects](https://opensourcelibs.com/)
 
 Hey twitter friends! I got tired of traditional video conferencing apps, so I made a better one. It lets you be in a room together - without the fatigue, and the oppressively big videos Check it out at . It is free and instant DMs aways open!
 
@@ -290,105 +272,78 @@ https://twitter.com/lobau/status/1422982632774660096?s=20
 
 The video platform you always wanted with a toolkit you will love.
 
-https://cinnamon.video/
+[Cinnamon Beta](https://cinnamon.video/)
 
 Welcome to WorkAdventure! Create your own digital office and meet online with your colleagues.
 
 The course is scheduled to be held between 11 October to 15 October 2021. Apply now!
 
-https://www.thebetterindia.com/263360/isro-gis-online-free-course-certificate-how-to-apply/amp/
+[ISRO Offers 5-Day Free Online Course With Certificate; Apply Here](https://www.thebetterindia.com/263360/isro-gis-online-free-course-certificate-how-to-apply/amp/)
 
 Create a live-updating map that displays the locations of all of your POIs or events, powered by a simple spreadsheet.
 
-https://www.mapbox.com/impact-tools/sheet-mapper
+[Sheet Mapper  | Mapbox](https://www.mapbox.com/impact-tools/sheet-mapper)
 
 Tabs.
 
 https://twitter.com/notionhq/status/1601291261469548545?s=46&t=ePVtS17OKjtTSVBqEBN6kQ
 
-https://blot.im/how
-
-https://blot.im/how
-
-https://blot.im/how
+[How to use Blot - Blot](https://blot.im/how)
 
 The latest entries posted on Emily Cass
 
-https://www.cloudflare.com/products/zero-trust/
+[Zero Trust | Secure Your Hybrid Workforce | Cloudflare](https://www.cloudflare.com/products/zero-trust/)
 
 Language Documentation Web App
 
-https://livingdictionaries.app/
+[Living Dictionaries](https://livingdictionaries.app/)
 
-https://mailchi.mp/12830802c579/open-source-volunteerism-and-oral-histories-mapping-during-a-pandemic-terrastories-2020-in-review-13658032?e=e0237d8f19
+[New Terrastories features released! And a sneak peek of our 2022 roadmap](https://mailchi.mp/12830802c579/open-source-volunteerism-and-oral-histories-mapping-during-a-pandemic-terrastories-2020-in-review-13658032?e=e0237d8f19)
 
-https://censorship.no/en/index.html
+[CENO Browser | Share the WebCENO Browser | Share the Web](https://censorship.no/en/index.html)
 
 Combine your drives and clouds into one database that you can organize and explore from any device. Designed for creators, hoarders and the painfully disorganized.
 
-https://www.spacedrive.com/roadmap
+[Roadmap - Spacedrivediscordgithub](https://www.spacedrive.com/roadmap)
 
 Felt lets you create maps collaboratively, using world-class data, and share them in a single click. For team projects or epic adventure with friends.
 
-https://felt.com/
+[Felt – The best way to make maps on the internet](https://felt.com/)
 
 OpenArchive - Empowering eyewitnesses to preserve truth to power
 
-https://open-archive.org/
+[OpenArchive](https://open-archive.org/)
 
-Secure workforce, workplace, and workloads with Cloudflare Zero Trust - the fastest Zero Trust browsing and application access platform.
-
-https://www.cloudflare.com/products/zero-trust/
 
 Generate a docker-compose yaml definition from a running container - GitHub - Red5d/docker-autocompose: Generate a docker-compose yaml definition from a running container
-
-https://www.cloudflare.com/products/zero-trust/
 
 https://github.com/Red5d/docker-autocompose
 
 AppFlowy is an open source alternative to Notion. You are in charge of your data and customizations.
 
-https://www.appflowy.io/
+[AppFlowy.IO](https://www.appflowy.io/)
 
 MikroTik makes networking hardware and software, which is used in nearly all countries of the world. Our mission is to make existing Internet technologies faster, more powerful and affordable to wider range of users.
 
 https://mikrotik.com/software
 
-The best way to make maps on the internet.
-
-https://felt.com/map/Bidar-P8Rfo0NxRFmnpAU3GL71bB
 
 balenaHub is a catalog of IoT and edge projects created by a community of product builders, like you. Find a project to try, add your devices, and begin, or publish your project today.
 
 https://hub.balena.io/organizations/gh_willswire/apps/balenaprint
 
-a message
-
-Ubuntu 22.04 has better support for the low latency PipeWire multimedia framework. Here’s how to setup it for PulseAudio, ALSA, JACK and Bluetooth output. Firstly, Pipewire is pre-installed o…
-
-https://ubuntuhandbook.org/index.php/2022/04/pipewire-replace-pulseaudio-ubuntu-2204/
-
-https://twitter.com/adamzielin/status/1563194366998761473?t=eQh97v__6iPmVji77czU-g&s=19
 
 Perfect for your portfolio, blog, landing page, or business site. Features: pretty links, custom domains, Google Fonts, SEO support, script injection.
 
 https://fruitionsite.com/
 
-https://www.cloudflare.com/products/zero-trust/
-
-Contribute to vrtmrz/obsidian-livesync development by creating an account on GitHub.
 
 https://github.com/vrtmrz/obsidian-livesync/
-
-This page is for those who are interested in our Self-Serve Subscription Agreement.
-
-https://www.cloudflare.com/terms/
-
-https://www.cloudflare.com/terms/
 
 Some academic tools that I discovered recently for research students. Also, attaching two of my previous lists too! A @OpenAcademics @ThePhDPlace #AcademicTwitter #AcademicChatter #scicomm #STEM
 
 https://twitter.com/VnVrinda/status/1569354409712435200?t=sJn3W6OnFk91xwqTSnWXHQ&s=19
+
 
 100 lessons in 100 days, to master Python and become a developer. Learn how to code with an interactive online course, for free, starting from scratch.
 
@@ -400,7 +355,6 @@ https://github.com/toeverything/AFFiNE
 
 How to download academic papers and books for free
 
-https://twitter.com/AStrasser116/status/1576648460194807808?t=s5I5_pqHlPoXio9k6KlUaQ&s=19
 
 https://twitter.com/AStrasser116/status/1576648460194807808?t=s5I5_pqHlPoXio9k6KlUaQ&s=19
 
@@ -413,8 +367,6 @@ Collaborative Community Publishing
 https://www.pubpub.org/
 
 It's here! Upload to Explainpaper and start instantly getting explanations! Ask follow up questions if you need a more in-depth answer. Go to and go read all the papers you've been saving!
-
-https://twitter.com/amanjha__/status/1584628485510733825?s=20&t=7mFCUM9k_gtTlO5aDHjMwQ
 
 https://twitter.com/amanjha__/status/1584628485510733825?s=20&t=7mFCUM9k_gtTlO5aDHjMwQ
 
@@ -432,7 +384,6 @@ Start your literature search here: get an overview of a research topic, find rel
 
 https://openknowledgemaps.org/
 
-https://blot.im/how
 
 Turn a list of addresses into an optimized route for pick-ups or deliveries.
 
@@ -444,69 +395,50 @@ https://openaccessbutton.org/
 
 https://unpaywall.org/products/extension
 
-Join us in reimagining drawing for the digital age. With $100K in cash prizes and 18 winners, we’re calling on creatives to take drawing to a place it’s never been. Download Mental Canvas Draw and join the #ReimagineDrawingChallenge
+Join us in reimagining drawing for the digital age. With $100K in cash prizes and 18 winners, we’re calling on creatives to take drawing to a place it’s never been. Download Mental Canvas Draw and join the 
 
-https://www.mentalcanvas.com/challenge/2021
+[$100K Mental Canvas Challenge](https://www.mentalcanvas.com/challenge/2021)
 
-https://pretalx.com/p/about/
+[pretalx — CfP and scheduling for conferences](https://pretalx.com/p/about/)
 
 Traccar is the leading GPS tracking software. Vehicle and personal tracking. Self hosting and cloud-based solution. Real time view, reports, notifications.
 
 https://www.traccar.org/
 
-A_critical_analysis_of_gephi_and_network_visualisation.pdf
 
 The open-source solution for design and prototyping
 
-https://penpot.app/
+[Penpot - Design Freedom for Teams](https://penpot.app/)
 
 On this channel, I provide tutorials for working with Python in a digital humanities project. I design my videos and tutorials for humanists who have no coding experience. I am a medieval historian by trade, but I create my videos with all humanists in mind. If you want to interact with the videos in more dynamic ways, check out my website, www....
 
-https://www.youtube.com/channel/UC5vr5PwcXiKX_-6NTteAlXw
+[Python Tutorials for Digital Humanities - YouTube](https://www.youtube.com/channel/UC5vr5PwcXiKX_-6NTteAlXw)
 
-http://treeline.bellz.org/index.html
+[TreeLine - News](http://treeline.bellz.org/index.html)
 
-a message
 
-http://ucbvislab.github.io/radiotool/
+[radiotool - tools for constructing and retargeting audio — radiotool 0.3.3 documentation](http://ucbvislab.github.io/radiotool/)
 
-http://vis.berkeley.edu/software/
+[Visualization Lab | Software](http://vis.berkeley.edu/software/)
 
 Self hosted open source no-code database and Airtable alternative. Baserow gives you the powers of a developer without leaving your browser.
 
-https://baserow.io/
+[Baserow: Open source no-code database and Airtable alternative](https://baserow.io/)
 
-https://nitroshare.net/
+[NitroShare](https://nitroshare.net/)
 
-https://anagora.org/
 
 After a long wait and weeks of development, we finally managed to release Input on iOS platform.
 
-https://www.lutraconsulting.co.uk/blog/2019/09/10/input-on-ios/
-
-The Nextcloud App Store - Upload your apps and install new apps onto your Nextcloud
+[Input on iOS - Lutra Consulting](https://www.lutraconsulting.co.uk/blog/2019/09/10/input-on-ios/)
 
 https://apps.nextcloud.com/apps/cms_pico
-
-https://apps.nextcloud.com/apps/cms_pico
-
-The Nextcloud App Store - Upload your apps and install new apps onto your Nextcloud
 
 https://apps.nextcloud.com/apps/pdfdraw
-
-The Nextcloud App Store - Upload your apps and install new apps onto your Nextcloud
 
 https://apps.nextcloud.com/apps/workflow_ocr
 
-https://apps.nextcloud.com/apps/pdfdraw
-
-The Nextcloud App Store - Upload your apps and install new apps onto your Nextcloud
-
 https://apps.nextcloud.com/apps/collectives
-
-Nextcloud is the most deployed on-premises file share and collaboration platform. Access & collaborate across your devices. Your data remains under your control.
-
-https://nextcloud.com/blog/swedish-government-nextcloud-premier-digital-collaboration-platform/
 
 https://nextcloud.com/blog/swedish-government-nextcloud-premier-digital-collaboration-platform/
 
@@ -599,5 +531,29 @@ http://vis.berkeley.edu/software/
 https://tinysubversions.com/twitter-archive/make-your-own/?fbclid=PAAabD1nfapN-FdUapee4rIMgZRRLAwAoaygL1uhy4Adg21gI7-VC4M8IjyaY
 
 https://denigma.app/#demo
+
+
+## Development but for noobs
+
+- [visbug](https://awesomeopensource.com/project/GoogleChromeLabs/ProjectVisBug)
+seems like inspect element supercharged
+
+## Whiteboarding
+
+1. [WBO](https://wbo.ophir.dev)
+2. [Omniboard](https://github.com/Clocks-in-a-Cooler/omniboard)
+3. [Workflow](https://github.com/markandre13/workflow)
+4. [Spacedeck](https://github.com/spacedeck/spacedeck-open)
+5. [Drawpile](https://drawpile.net/)
+6. [DSW](https://deadsimplewhiteboard.herokuapp.com)
+7. [Openboard](https://openboard.ch/index.en.html)
+
+## Collaborative
+
+1. [Kansha](https://www.kansha.org)
+
+## Annotations
+
+1. [Anvil - Video Annotation](https://www.anvil-software.org)
 
 http://www.docnow.io/

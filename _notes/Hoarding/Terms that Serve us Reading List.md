@@ -1,15 +1,14 @@
 ---
 layout: note
 title:
-tags: brownupyourfeed](https://www
-source:
+tags: list/Reading 
+source: https://virtualcarelab.com/terms
 compiler:
 category: 
 ---
+compiled by: https://virtualcarelab.com/terms
 
 # Terms that Serve us Reading List
-
-## **  
 
 BOOKS**
 
@@ -97,7 +96,7 @@ _[OPEN SCORES: How to Program the Commons](https://www.panke.gallery/exhibition/
 
   
 
-[Critical Caption Essays and #brownupyourfeed](https://www.patreon.com/idealblackfemale) by [Mandy Harris Williams](https://www.mandyharriswilliams.com/)  
+[Critical Caption Essays and #brownupyourfeed ](https://www.patreon.com/idealblackfemale) by [Mandy Harris Williams](https://www.mandyharriswilliams.com/)  
 
   
 

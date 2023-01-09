@@ -5,7 +5,7 @@ source:
 compiler:
 category:
 title: Condom Ads- A Commentary
-tags: 
+tags: portfolio/Research, portfolio/Media-Studies portfolio/Writing/Research
 toc: true
 season: winter
 linter-yaml-title-alias: "Condom Ads: A Commentary"

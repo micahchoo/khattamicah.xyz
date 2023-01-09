@@ -5,13 +5,14 @@ aliases: [Writing, Justice and Liberation Reading List | Firefly Creative Writin
 compiler:
 category:
 created: 2022-12-16T11:45:41 (UTC -08:00)
-tags: []
+tags: list/Reading
 source: https://fireflycreativewriting.com/liberation-reading-list
 author: 
 linter-yaml-title-alias: Writing, Justice and Liberation Reading List | Firefly Creative Writing
 ---
 
-# Writing, Justice and Liberation [[Reading List]] | Firefly Creative Writing
+https://fireflycreativewriting.com/liberation-reading-list
+# Writing, Justice and Liberation Reading List | Firefly Creative Writing
 
 > ## Excerpt
 > Decolonizing the Writing WorldA primer of things to read and watch.

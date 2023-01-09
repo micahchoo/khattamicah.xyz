@@ -1,7 +1,7 @@
 ---
 layout: note
 title:
-tags: 
+tags: list/References Digital/art list/Art
 source:
 compiler:
 category:

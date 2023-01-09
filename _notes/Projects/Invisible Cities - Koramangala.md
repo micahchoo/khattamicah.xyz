@@ -1,7 +1,7 @@
 ---
 layout: note
 title:
-tags: 
+tags: Portfolio/Writing/Creative-Writing
 source:
 compiler:
 category:

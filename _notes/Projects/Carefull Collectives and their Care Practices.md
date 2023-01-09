@@ -4,7 +4,7 @@ source:
 compiler:
 category:
 title: Carefull Collectives and their Care Practices
-tags: 
+tags: portfolio/Research anthropology/CareWork portfolio/Writing/Research
 toc: true
 season: spring
 ---

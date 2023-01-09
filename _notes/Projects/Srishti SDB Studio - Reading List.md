@@ -1,7 +1,7 @@
 ---
 layout: note
 title:
-tags: mapping wayfinding National-Digital-Health-Mission National-Digital-Health-Mission hdmp intuitive photography duster editing tbilisi streetphotography nightphotography nightaesthetic aesthetic nightaesthetic nightimages time history oralhistory method experientialmapping visualising speculativefiction speculativenarrative appropriation metaphor affectivewriting patternlibrary creativemapping manifesto epistemology criticaldesign satire reflection digitalstorytelling coauthoring creativeautoethnography carework worldbuilding Narrative Qualitative Quantitative Participatory toolkit Ethnography Heritage Communities Tools masterplan Bangalore AcademicTwitter AcademicChatter scicomm STEM digitalscam digitalindiascam aadhaarscam collectivedesign AssetBasedDesign innovation
+tags: mapping wayfinding National-Digital-Health-Mission National-Digital-Health-Mission hdmp intuitive photography duster editing tbilisi streetphotography night-photography nightaesthetic aesthetic nightaesthetic nightimages oralhistory method experientialmapping visualising speculativefiction speculativenarrative appropriation metaphor affectivewriting PatternLibrary creativemapping manifesto epistemology criticaldesign satire reflection digitalstorytelling co-authoring creativeautoethnography carework worldbuilding Narrative Qualitative Quantitative Participatory toolkit Ethnography Heritage Communities Tools masterplan Bangalore AcademicTwitter AcademicChatter scicomm STEM digitalscam digitalindiascam aadhaarscam collective-design AssetBasedDesign innovation portfolio/Public-Speaking/Teaching list/Reading 
 source:
 compiler:
 category:
@@ -14,6 +14,10 @@ category:
 [[Srishti SDB Studio]]
 
 This was the reading list for a course that Naveen, Navin, Siddhant and I co-facilitated for 4th year HCD students. One of the thematics (that Navin and I led) focused on understanding and exploring gathering spaces, or spaces where humans and non-humans come together. We wanted to experiment with multiple practices of situated making as a form of creative practice. Our goal was to unravel questions about learning from, being in, and making in gathering spaces, as well as using metaphors from these spaces to inform an "HCD" practice. The students engaged in a range of activities such as visiting and mapping the site, reading literature, building artifacts, cross-annotating and co-iterating with collaborators, and participating in different roles within the space. The importance of honesty, speculation, seeing and connecting diverse experiences and knowledge, and making as critical vehicles of inquiry started to become apparent.
+
+
+
+---
 
 [Zotero | Your personal research assistant](https://www.zotero.org/groups/4597351/creative_practice_research_resources/item-list)
 
@@ -441,7 +445,7 @@ https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book.pdf
 
 [Nina Nayko 🇬🇪 on Instagram: &quot;You&#039;ll notice every flickering light after watching this video
 
-#photography #duster #editing #tbilisi #streetphotography #nightphotography #nightaesthetic #aesthetic #nightaesthetic #nightimages #gldani&quot;](https://www.instagram.com/reel/ChuvCqRsLj1/?igshid=MDJmNzVkMjY)=
+#photography #duster #editing #tbilisi #streetphotography #night-photography #nightaesthetic #aesthetic #nightaesthetic #nightimages #gldani&quot;](https://www.instagram.com/reel/ChuvCqRsLj1/?igshid=MDJmNzVkMjY)=
 
 Comic-Layout-_Mesh_compressed.pdf
 
@@ -493,7 +497,7 @@ Visual autoethnography is an autoethnographic qualitative research method in whi
 
 On February 6, 2019, I began my observation of the Cherry Blossom on College Hall Green. In the beginning, I thought I thought that I…
 
-#mapping #affectivewriting #patternlibrary
+#mapping #affectivewriting #PatternLibrary
 
 https://medium.com/@envs2032019/seasonality-human-and-non-human-patterns-caroline-horvatits-592269aa449e
 
@@ -535,7 +539,7 @@ https://nextcloud.livinglabs.network/s/DccSmtZdESBW3yb
 
 Bidar offers a different vision for technology, unique to the city's socio-material reality. We present the vision in this piece - fractured, non-cohesive, multi-voiced and ephemeral.
 
-#reflection #digitalstorytelling #coauthoring
+#reflection #digitalstorytelling #co-authoring
 
 [
 
@@ -677,7 +681,7 @@ From Ella Baker to Septima Clark, history is rife with examples of Black women w
 
 [TOOLKIT - GROUND WORK](https://toolkit.press/ground-work.html)
 
-See how @DesignBeku engages in #collectivedesign that strives to make design and technology more locally rooted, contextually relevant, and ethical @blnaveen offers readers a tour of collective design in action here: #AssetBasedDesign #innovation
+See how @DesignBeku engages in #collective-design that strives to make design and technology more locally rooted, contextually relevant, and ethical @blnaveen offers readers a tour of collective design in action here: #AssetBasedDesign #innovation
 
 https://twitter.com/interactionsMag/status/1569860987339030528?s=20&t=JyIIklHLycmeStCdZd5jRg
 

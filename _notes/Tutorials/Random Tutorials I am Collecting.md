@@ -23,7 +23,7 @@ tags: Index-Page
 
 ***
 
-#### ![[To learn how to connect a website to a database and create dynamic websites you can follow these steps]]
+#### ![[To learn how to connect a website to a database and create dynamic websites, you can follow these steps]]
 
 ***
 

@@ -4,7 +4,7 @@ source:
 compiler:
 category:
 title: Annotating Academic Research
-tags: list
+tags: Research-Tools list/tools
 ---
 
 Tools for Academic research that move it beyond its cult of personality to embrace collective science? 
@@ -27,7 +27,7 @@ Tools for Academic research that move it beyond its cult of personality to embra
 * [LiquidText - "PDF Editor with Superpowers" FastCompany](https://www.liquidtext.net/) `Annotation on Text`
 * [Technofutures from Bidar](https://metal-profuse-arch.glitch.me/) `experiment` `AoI`
 * [Mirador](https://mirador-dev.netlify.app/__tests__/integration/mirador/)`Annotation on Image`
-* https://voicethread.com `annotation on video`
+* [Conversations in the cloud](https://voicethread.com) `annotation on video`
 * [Loom](https://www.loom.com)`Voice annotation on Screengrabbed video`
 * [hypothes.is](https://web.hypothes.is/)
 
@@ -74,7 +74,7 @@ https://hal.inria.fr/hal-01169592/document[](https://hal.inria.fr/hal-01169592/d
 
 ---
 
-* http://giorgialupi.com/bruises-the-data-we-dont-see `other ways that people have opened up data`
+* [BRUISES - The Data We Don&#39;t See &mdash; giorgialupi](http://giorgialupi.com/bruises-the-data-we-dont-see) `other ways that people have opened up data`
 
 ------------
 
@@ -83,6 +83,4 @@ https://hal.inria.fr/hal-01169592/document[](https://hal.inria.fr/hal-01169592/d
 * [GitHub - omarcostahamido/awesome-networked-media: Awesome list of tools for using multimedia in the network](https://github.com/omarcostahamido/awesome-networked-media)`networked audio video`
 
 -----------------
-
-------
 

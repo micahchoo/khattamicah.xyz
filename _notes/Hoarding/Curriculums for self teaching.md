@@ -1,7 +1,7 @@
 ---
 layout: note
 title:
-tags: curriculums TechEthics AlgorithmicJusticesimilarly Anthropodesign journalism
+tags: curriculums Tech-Ethics Algorithmic-Justice Anthropodesign journalism list/teaching-resources
 source:
 compiler:
 category:

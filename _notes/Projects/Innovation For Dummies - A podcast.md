@@ -4,7 +4,7 @@ source:
 compiler:
 category:
 title: Innovation For Dummies - A podcast
-tags: 
+tags: portfolio/Audio-Production portfolio/Podcast portfolio/Writing/Script
 toc: true
 season: spring
 ---

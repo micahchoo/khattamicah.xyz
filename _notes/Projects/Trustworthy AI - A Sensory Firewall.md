@@ -4,7 +4,7 @@ source:
 compiler:
 category:
 title: Trustworthy AI- A Sensory Firewall
-tags: 
+tags: portfolio/Speculative-Design
 toc: true
 season: spring
 ---

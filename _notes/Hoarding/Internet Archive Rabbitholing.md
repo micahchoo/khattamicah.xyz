@@ -1,7 +1,7 @@
 ---
 layout: note
 title:
-tags: 
+tags: list/Resources
 source:
 compiler:
 category:
@@ -9,17 +9,17 @@ category:
 
 # Internet Archive Rabbitholing
 
-https://archive.org/details/artmagazines
+[Art and Architecture Magazines : Free Texts : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/artmagazines)
 
-https://archive.org/details/duke_libraries
+[Duke University Libraries : Free Books : Free Texts : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/duke_libraries)
 
-https://archive.org/details/DWeb-Archive
+[DWeb Archive : Free Movies : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/DWeb-Archive)
 
-https://archive.org/details/flickrcommons
+[Flickr Commons Archive : Free Image : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/flickrcommons)
 
-https://archive.org/details/folkscanomy_computer?tab=collection
+[Folkscanomy Computer: Books on Computers and Programming : Free Texts : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/folkscanomy_computer?tab=collection)
 
-https://archive.org/details/folksoundomy?tab=collection
+[Folksoundomy: A Library of Sound : Free Audio : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/folksoundomy?tab=collection)
 
 ### Miscellaneous Punk Zines : Free Texts : Free Download, Borrow and Streaming : Internet Archive
 
@@ -39,7 +39,7 @@ https://archive.org/details/folksoundomy?tab=collection
 
 ---
 
-https://archive.org/details/bhlexpandingaccess?&sort=-week&page=2
+[Expanding Access to Biodiversity Literature : Free Texts : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/bhlexpandingaccess?&sort=-week&page=2)
 
 ### Expanding Access to Biodiversity Literature : Free Texts : Free Download, Borrow and Streaming : Internet Archive
 
@@ -48,7 +48,7 @@ https://archive.org/details/bhlexpandingaccess?&sort=-week&page=2
 
 ---
 
-https://archive.org/details/ArchiveIt-Partner-2005?&sort=-week&page=2
+[Los Angeles Public Library : Free Web : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/ArchiveIt-Partner-2005?&sort=-week&page=2)
 
 ### Los Angeles Public Library : Free Web : Free Download, Borrow and Streaming : Internet Archive
 
@@ -57,7 +57,7 @@ https://archive.org/details/ArchiveIt-Partner-2005?&sort=-week&page=2
 
 ---
 
-source: https://archive.org/details/DWeb-Archive?tab=about
+source: [DWeb Archive : Free Movies : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/DWeb-Archive?tab=about)
 
 ### [[DWeb Archive]] : Free Movies : Free Download, Borrow and Streaming : Internet Archive
 
@@ -74,11 +74,11 @@ Decentralized Web (DWeb) is an initiative to facilitate discussions, thinking, a
 
 To date (Summer 2021) DWeb has grown to include nine “nodes” across four continents. In addition to monthly DWeb meetups, we produce DWeb Camp and the Decentralized Web Summit. Our community has developed a set of DWeb Principles to help guide the technological development of a decentralized web.
 
-Find out more at https://decentralizedweb.net/
+Find out more at [Decentralized Web Summit 2018: Global Visions / Working Code](https://decentralizedweb.net)/
 
 ----
 
-https://archive.org/details/Internet-Archive-Artist-in-Residence?tab=collection
+[Internet Archive Artist in Residence : Free Image : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/Internet-Archive-Artist-in-Residence?tab=collection)
 
 ### Internet Archive Artist in Residence : Free Image : Free Download, Borrow and Streaming : Internet Archive
 
@@ -96,7 +96,7 @@ practice.
 
 ---
 
-https://archive.org/details/microfilm
+[Microfilm : Free Books : Free Texts : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/microfilm)
 
 ### Microfilm : Free Books : Free Texts : Free Download, Borrow and Streaming : Internet Archive
 
@@ -105,7 +105,7 @@ https://archive.org/details/microfilm
 
 ---
 
-https://archive.org/details/ephemera?&sort=-week&page=2
+[Ephemeral Films : Free Movies : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/ephemera?&sort=-week&page=2)
 
 ### Ephemeral Films : Free Movies : Free Download, Borrow and Streaming : Internet Archive
 
@@ -114,13 +114,13 @@ https://archive.org/details/ephemera?&sort=-week&page=2
 
 ---
 
-https://archive.org/details/newspaperarchive?&sort=-week&page=2
+[Newspaper Archive : Free Texts : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/newspaperarchive?&sort=-week&page=2)
 
 ### Newspaper Archive : Free Texts : Free Download, Borrow and Streaming : Internet Archive
 
 ---
 
-https://archive.org/details/yearbooks
+[Yearbooks : Free Texts : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/yearbooks)
 
 ### Yearbooks : Free Texts : Free Download, Borrow and Streaming : Internet Archive
 
@@ -139,15 +139,15 @@ Originally founded as the Missionary Institute of the Evangelical Lutheran Churc
 A collection of materials from the Central City Public Library (in Central City, NE)  
 Topics: yearbook, yearbooks, the bison, central city  
 
-https://archive.org/details/texts
+[Free Books : Download &amp; Streaming : eBooks  and Texts : Internet Archive](https://archive.org/details/texts)
 
-https://archive.org/details/newsletters
+[Newsletters: Zines, PDFs and Photocopies : Free Texts : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/newsletters)
 
-https://archive.org/details/kidmagazines
+[Youth and Childrens' Magazines : Free Texts : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/kidmagazines)
 
-https://archive.org/details/sciencemagazines
+[Science and Scientific Magazines : Free Texts : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/sciencemagazines)
 
-https://archive.org/details/softwarehistory
+[Software History Collection : Free Software : Free Download, Borrow and Streaming : Internet Archive](https://archive.org/details/softwarehistory)
 
 ### Software History Collection : Free Software : Free Download, Borrow and Streaming : Internet Archive
 

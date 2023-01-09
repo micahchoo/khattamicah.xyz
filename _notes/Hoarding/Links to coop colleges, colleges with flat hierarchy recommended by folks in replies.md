@@ -2,13 +2,13 @@
 layout: note
 aliases: [Links to coop colleges, colleges with flat hierarchy recommended by folks in replies]
 title:
-tags: 
+tags: list/Resources
 source:
-compiler:
+compiler: https://twitter.com/impactology
 category:
-compiled by: https://twitter.com/impactology
 linter-yaml-title-alias: Links to coop colleges, colleges with flat hierarchy recommended by folks in replies
 ---
+compiled by: https://twitter.com/impactology
 
 # Links to coop colleges, colleges with flat hierarchy recommended by folks in replies
 

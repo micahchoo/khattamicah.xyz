@@ -11,7 +11,6 @@ tags: Index-Page
 
 ## Glossary
 
-#### ![[ETHNOGRAPHY AND ETHNOGRAPHERS OF AND IN EDUCATION- A SITUATED PERSPECTIVE]]
 
 ***
 

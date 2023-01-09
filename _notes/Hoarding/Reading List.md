@@ -1,7 +1,7 @@
 ---
 layout: note
 title:
-tags: justice rawls journals reading ai indigenous read indian urban
+tags: list/Reading 
 source:
 compiler:
 category:
@@ -11,7 +11,7 @@ category:
 
 ###### [john-rawls-shadow-of-justice](https://12ft.io/proxy?q=https%3A%2F%2Fwww.thenation.com%2Farticle%2Fsociety%2Fjohn-rawls-shadow-of-justice ) #justice #rawls 
 
-###### [Journals of Frontiers](https://www.frontiersin.org/journals?domain=all) #journals #reading
+###### [Journals of Frontiers](https://www.frontiersin.org/journals?domain=all) #journals #Reading
 
 [[eyeondesign_aiga_org.Ontological Design Has Become Influential In Design Academia  But What Is It  Eye on Design|Ontological design]] 
 

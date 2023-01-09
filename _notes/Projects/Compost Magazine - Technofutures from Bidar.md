@@ -4,7 +4,7 @@ source:
 compiler:
 category:
 title: Compost Magazine - Technofutures from Bidar
-tags: project code 
+tags: Portfolio/Digital-Humanities Code Annotations Community/CommunityNetworks Community/CommunityTechnology portfolio/Writing/Research
 toc: false
 season: spring
 ---

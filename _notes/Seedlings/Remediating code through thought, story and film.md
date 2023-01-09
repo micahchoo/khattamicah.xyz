@@ -1,7 +1,7 @@
 ---
 layout: note
 title:
-tags: 
+tags: list/Resources Media-Studies
 source:
 compiler:
 category:

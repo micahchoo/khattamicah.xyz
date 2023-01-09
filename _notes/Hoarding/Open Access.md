@@ -1,7 +1,7 @@
 ---
 layout: note
 title:
-tags: list cool digitalcultures
+tags: list/Resources Digital-Cultures
 source:
 compiler:
 category:

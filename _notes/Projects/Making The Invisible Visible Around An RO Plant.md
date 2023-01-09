@@ -4,7 +4,7 @@ source:
 compiler:
 category:
 title: Making The Invisible Visible Around An RO Plant
-tags: portfolio project
+tags: portfolio/Research, portfolio/Critical-Design Code 
 toc: false
 season: spring
 ---

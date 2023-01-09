@@ -4,7 +4,7 @@ source:
 compiler:
 category:
 title: Speculative Storytelling in Wayanad
-tags: portfolio project
+tags: portfolio/Research 
 toc: false
 season: spring
 ---

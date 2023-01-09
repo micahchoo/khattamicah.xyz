@@ -6,11 +6,11 @@ category:
 created: 2022-12-19T08:16:00 (UTC -08:00)
 tags: SUNUStudies
 source: https://www.sunujournal.com/sunu-studies
-compiled by: https://twitter.com/impactology
----
-: 
+
 ---
 
+compiled by: https://twitter.com/impactology
+https://www.sunujournal.com/sunu-studies
 # SUNU Studies — SUNU Journal
 
 > ## Excerpt

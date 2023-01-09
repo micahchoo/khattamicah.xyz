@@ -1,6 +1,6 @@
 ---
 layout: note
-tags: 
+tags: portfolio/UX-Design portfolio/UX-Research 
 source:
 compiler:
 category:

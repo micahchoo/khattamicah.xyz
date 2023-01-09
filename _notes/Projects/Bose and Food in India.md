@@ -1,7 +1,7 @@
 ---
 layout: note
 title:
-tags: 
+tags: portfolio/Speculative-Design portfolio/Writing/Research portfolio/AI-Art
 source:
 compiler:
 category:
