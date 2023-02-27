@@ -22,3 +22,4 @@ content-type: eg
 
 ### [[otherthings about me]]
 
+.\_pages\tiddly-garden.html
